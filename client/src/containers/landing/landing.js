@@ -40,7 +40,7 @@ class Landing extends Component {
       pathname: "/dashboard"
     });
   };
-  
+
 
   onDummyLinkHandler = () => {
     console.log("Dummy link clicked!");
@@ -72,7 +72,7 @@ class Landing extends Component {
             </Link>
           </li>
         </Fragment>
-      ); 
+      );
       }else{
         logoutBtn = (
         <Fragment>
@@ -126,7 +126,7 @@ class Landing extends Component {
                   <a href={"#services"}>Facilities</a>
                 </li>
                 <li>
-                  <a href={"#testimonials"}>Student Acheivements</a>
+                  <a href={"#faculty"}>Faculty</a>
                 </li>
 
                 <li className="drop-down">
@@ -168,7 +168,7 @@ class Landing extends Component {
               <a href={"#services"}>Facilities</a>
             </li>
             <li>
-              <a href={"#testimonials"}>Student Acheivements</a>
+              <a href={"#faculty"}>Faculty</a>
             </li>
 
             <li className="drop-down">
@@ -218,4 +218,3 @@ export default connect(
   mapStateToProps,
   mapDispatchToProps
 )(withRouter(Landing));
-

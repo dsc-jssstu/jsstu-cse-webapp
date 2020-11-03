@@ -190,15 +190,15 @@ h6 {
   float: left;
 }
 
-#intro .intro-info h2 {
+#intro .intro-info h4 {
   color: #fff;
   margin-top: 40px;
   font-size: 42px;
-  text-align: center;
+  /*text-align: center;*/
   font-weight: 600;
 }
 
-#intro .intro-info h2 span {
+#intro .intro-info h4 span {
   color: #74ecfc;
   text-decoration: underline;
 }
@@ -596,7 +596,7 @@ h6 {
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%333' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
  }
- 
+
  .carousel-control-next-icon {
    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%333' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
  }
@@ -664,17 +664,19 @@ h6 {
   margin-bottom: 0;
 }
 
-#why-us {
+#why-us, #faculty{
   padding: 60px 0;
   background: #004a99;
 }
 
 #why-us .section-header h3,
-#why-us .section-header p {
+#why-us .section-header p,
+#faculty .section-header h3,
+#faculty .section-header p  {
   color: #fff;
 }
 
-#why-us .card {
+#why-us .card{
   background: #00458f;
   border-color: #00458f;
   border-radius: 10px;
@@ -686,28 +688,28 @@ h6 {
   height: 100%;
 }
 
-#why-us .card:hover {
+#why-us .card:hover{
   background: #003b7a;
   border-color: #003b7a;
 }
 
-#why-us .card i {
+#why-us .card i{
   font-size: 48px;
   padding-top: 15px;
   color: #bfddfe;
 }
 
-#why-us .card h5 {
+#why-us .card h5{
   font-size: 22px;
   font-weight: 600;
 }
 
-#why-us .card p {
+#why-us .card p{
   font-size: 15px;
   color: #d8eafe;
 }
 
-#why-us .card .readmore {
+#why-us .card .readmore{
   color: #fff;
   font-weight: 600;
   display: inline-block;
@@ -737,6 +739,26 @@ h6 {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   color: #cce5ff;
+}
+
+#faculty .card{
+  background: #ffffff;
+  border-color: #00458f;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#faculty .card-body{
+  margin: 0;
+  padding: 0;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+  background: #ecf5ff;
 }
 
 /* Portfolio Section
@@ -1390,7 +1412,7 @@ h6 {
   }
 
 
-  #intro .intro-info h2 {
+  #intro .intro-info h4 {
     font-size: 35px;
     margin-top: 30px;
   }
@@ -1431,7 +1453,7 @@ h6 {
   }
 
 
-  #intro .intro-info h2 {
+  #intro .intro-info h4 {
     font-size: 26px;
     margin-bottom: 20px;
   }
@@ -1467,7 +1489,7 @@ h6 {
     font-size: 26px;
   }
 
-  #intro .intro-info h2 {
+  #intro .intro-info h4 {
     font-size: 20px;
     margin-bottom: 15px;
   }
