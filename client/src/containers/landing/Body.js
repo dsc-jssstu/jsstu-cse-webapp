@@ -39,7 +39,7 @@ class Body extends Component {
     ============================--> */}
           <section id="about">
             <div className="container">
-              <header className="section-header">
+              <header className="section-header py-5">
                 <h3>ABOUT US</h3>
                 <p>
                   The inception of Department of Computer Science and
@@ -64,10 +64,8 @@ class Body extends Component {
                 </p>
                 <ol typeof="I" className="mb-4">
                   <li>Science and Engineering Research Board (SERB)</li>
-                  <li>
-                    Ministry of Human Resource Development (MHRD) 3. University
-                    Grant Commission (UGC)
-                  </li>
+                  <li>Ministry of Human Resource Development (MHRD)</li>
+                  <li>University Grant Commission (UGC)</li>
                   <li>Department of Science and Technology (DST)</li>
                 </ol>
               </header>
@@ -187,8 +185,8 @@ class Body extends Component {
               <header className="section-header">
                 <h3>Services</h3>
                 <p>
-                  Laudem latine persequeris id sed, ex fabulas delectus quo. No
-                  vel partiendo abhorreant vituperatoribus.
+                  {/*Laudem latine persequeris id sed, ex fabulas delectus quo. No
+                  vel partiendo abhorreant vituperatoribus.*/}
                 </p>
               </header>
 
@@ -210,9 +208,7 @@ class Body extends Component {
                       </a>
                     </h4>
                     <p className="description">
-                      Voluptatum deleniti atque corrupti quos dolores et quas
-                      molestias excepturi sint occaecati cupiditate non
-                      provident
+
                     </p>
                   </div>
                 </div>
@@ -231,8 +227,7 @@ class Body extends Component {
                       <a href="/faculty">Faculties</a>
                     </h4>
                     <p className="description">
-                      Minim veniam, quis nostrud exercitation ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat tarad limino ata
+
                     </p>
                   </div>
                 </div>
@@ -253,8 +248,7 @@ class Body extends Component {
                       <a href="#1">Past Events</a>
                     </h4>
                     <p className="description">
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur
+
                     </p>
                   </div>
                 </div>
@@ -274,8 +268,7 @@ class Body extends Component {
                       <a href="#1">Upcoming Events</a>
                     </h4>
                     <p className="description">
-                      Excepteur sint occaecat cupidatat non proident, sunt in
-                      culpa qui officia deserunt mollit anim id est laborum
+
                     </p>
                   </div>
                 </div>
@@ -298,8 +291,7 @@ class Body extends Component {
                       </a>
                     </h4>
                     <p className="description">
-                      At vero eos et accusamus et iusto odio dignissimos ducimus
-                      qui blanditiis praesentium voluptatum deleniti atque
+
                     </p>
                   </div>
                 </div>
@@ -316,11 +308,10 @@ class Body extends Component {
                       ></i>
                     </div>
                     <h4 className="title">
-                      <a href="#1">Department Workshops/Conference</a>
+                      <a href="#1">Workshops/Conference</a>
                     </h4>
                     <p className="description">
-                      Et harum quidem rerum facilis est et expedita distinctio.
-                      Nam libero tempore, cum soluta nobis est eligendi
+
                     </p>
                   </div>
                 </div>
@@ -337,8 +328,7 @@ class Body extends Component {
               <header className="section-header">
                 <h3>Department Stats</h3>
                 <p>
-                  Laudem latine persequeris id sed, ex fabulas delectus quo. No
-                  vel partiendo abhorreant vituperatoribus.
+
                 </p>
               </header>
 
@@ -369,7 +359,7 @@ class Body extends Component {
           {/* <!--==========================
       Clients Section
     ============================--> */}
-
+    {/*<!--
           <section id="testimonials" className="section-bg">
             <div className="container">
               <header className="section-header">
@@ -500,13 +490,13 @@ class Body extends Component {
                 </div>
               </div>
             </div>
-          </section>
+          </section>-->*/}
           {/* <!-- #testimonials -->
 
     <!--==========================
       Team Section
     ============================--> */}
-          <section id="team">
+        {/* <!-- <section id="team">
             <div className="container">
               <div className="section-header">
                 <h3>CLUBS</h3>
@@ -635,13 +625,13 @@ class Body extends Component {
                 </div>
               </div>
             </div>
-          </section>
+          </section>-->*/}
           {/* <!-- #team -->
 
     <!--==========================
       Clients Section
     ============================--> */}
-          <section id="clients" className="section-bg">
+          {/*<!--<section id="clients" className="section-bg">
             <div className="container">
               <div className="section-header">
                 <h3>Our Recruiters</h3>
@@ -735,7 +725,7 @@ class Body extends Component {
                 </div>
               </div>
             </div>
-          </section>
+          </section>-->*/}
 
           {/* <!--==========================
       Contact Section
@@ -763,17 +753,17 @@ class Body extends Component {
 
                 <div className="col-lg-6">
                   <div className="row">
-                    <div className="col-md-5 info">
+                    <div className="offset-md-2 col-md-10 info">
                       <i className="ion-ios-location-outline"></i>
                       <p>
                         JSS Science and Technology University (Formerly SJCE)
                       </p>
                     </div>
-                    <div className="col-md-4 info">
+                    <div className="offset-md-2 col-md-10 info">
                       <i className="ion-ios-email-outline"></i>
                       <p>office@jssstuniv.in</p>
                     </div>
-                    <div className="col-md-3 info">
+                    <div className="offset-md-2 col-md-10 info">
                       <i className="ion-ios-telephone-outline"></i>
                       <p>0821-2548285,86,87</p>
                     </div>
@@ -785,8 +775,8 @@ class Body extends Component {
                     </div>
                     <div id="errormessage"></div>
                     <form action="" method="post" className="contactForm">
-                      <div className="form-row">
-                        <div className="form-group col-lg-6">
+
+                        <div className="form-group ">
                           <input
                             type="text"
                             name="name"
@@ -798,7 +788,7 @@ class Body extends Component {
                           />
                           <div className="validation"></div>
                         </div>
-                        <div className="form-group col-lg-6">
+                        <div className="form-group ">
                           <input
                             type="email"
                             className="form-control"
@@ -809,7 +799,7 @@ class Body extends Component {
                             data-msg="Please enter a valid email"
                           />
                           <div className="validation"></div>
-                        </div>
+
                       </div>
                       <div className="form-group">
                         <input
