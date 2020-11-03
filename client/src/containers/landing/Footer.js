@@ -80,10 +80,7 @@ export class Footer extends Component {
                         <div className="col-lg-3 col-md-6  d-none d-lg-block footer-newsletter">
                             <h3>Our Newsletter</h3>
                             <p>
-                                Tamen quem nulla quae legam multos aute sint culpa legam
-                                noster magna veniam enim veniam illum dolore legam minim
-                                quorum culpa amet magna export quem marada parida nodela
-                                caramase seza.
+                                Sign up for our newsletter to stay updated!
                     </p>
                             <form action="" method="post">
                                 <input type="email" name="email" />
