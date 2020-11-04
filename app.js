@@ -39,7 +39,7 @@ app.use('/research', research);
 app.use('/training/conducted', trainingConducted);
 app.use('/training/attended', trainingAttended);
 app.use('/subject', subject);
-app.use('/', passport.authenticate('jwt', { session: false }), securedRoutes);
+// app.use('/', passport.authenticate('jwt', { session: false }), securedRoutes);
 
 app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, "client", "build", "index.html"));
