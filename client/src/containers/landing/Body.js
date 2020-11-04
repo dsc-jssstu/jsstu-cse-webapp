@@ -508,7 +508,7 @@ class Body extends Component {
     <!--==========================
       Why Us Section
     ============================--> */}
-          <section id="why-us" className="wow fadeIn">
+          {/*<!--<section id="why-us" className="wow fadeIn">
             <div className="container">
               <header className="section-header">
                 <h3>Department Stats</h3>
@@ -539,7 +539,7 @@ class Body extends Component {
                 </div>
               </div>
             </div>
-          </section>
+          </section>-->*/}
 
           {/* <!--==========================
       Clients Section
