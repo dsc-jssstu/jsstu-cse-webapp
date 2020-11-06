@@ -7,188 +7,6 @@ const Faculty = () => {
   return (
 
       <div id="faculty" className="section wb">
-      {/*<div id="faculty" className="section wb">
-        <div className="container">
-        <div className="section-title text-center mt-5">
-          <h3>FACULTY</h3>
-        </div>
-
-        <div className="row">
-        <div class="card mx-auto col-md-12 wow fadeInUp">
-          <div class="card-body text-left">
-          <table class="table table-striped">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Name</th>
-                <th scope="col">Designation</th>
-                <th scope="col">Research Interests</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Dr. M P Pushpalatha</td>
-                <td>Head of Department</td>
-                <td>Machine Learning, Health Information</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Dr. Vijayalakshmi H C</td>
-                <td>Professor</td>
-                <td>Image Processing, Machine Learning and Pattern Recognition</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Dr. Srinath S</td>
-                <td>Associate Professor</td>
-                <td></td>
-              </tr>
-              <tr>
-                <th scope="row">4</th>
-                <td>Dr. Anil Kumar K M</td>
-                <td>Associate Professor</td>
-                <td>Web Mining</td>
-              </tr>
-              <tr>
-                <th scope="row">5</th>
-                <td>Dr Anusuya M A</td>
-                <td>Associate Professor</td>
-                <td>Speech Processing</td>
-              </tr>
-              <tr>
-                <th scope="row">6</th>
-                <td>Dr Prasanna B T</td>
-                <td>Associate Professor</td>
-                <td>Computer Network and Security</td>
-              </tr>
-              <tr>
-                <th scope="row">7</th>
-                <td>Chandrashekar A M</td>
-                <td>Assistant Professor</td>
-                <td>Data Mining, Network Security</td>
-              </tr>
-              <tr>
-                <th scope="row">8</th>
-                <td>Dr. Manimala S</td>
-                <td>Assistant Professor</td>
-                <td>Image Processing, Machine Learning</td>
-              </tr>
-              <tr>
-                <th scope="row">9</th>
-                <td>Shivamurthy P M</td>
-                <td>Assistant Professor</td>
-                <td>Medical Imaging, Machine Learning and Artificial Intelligence</td>
-              </tr>
-              <tr>
-                <th scope="row">10</th>
-                <td>Dr Trisiladevi C. Nagavi</td>
-                <td>Assistant Professor</td>
-                <td>Machine Learning, Speech and Audio Processing</td>
-              </tr>
-              <tr>
-                <th scope="row">11</th>
-                <td>Dr Mahesha P</td>
-                <td>Assistant Professor</td>
-                <td>Clinical Speech Processing, Machine Learning</td>
-              </tr>
-              <tr>
-                <th scope="row">12</th>
-                <td>Sheela N.</td>
-                <td>Assistant Professor</td>
-                <td>Image Processing, Machine Learning</td>
-              </tr>
-              <tr>
-                <th scope="row">13</th>
-                <td>Vani Ashok</td>
-                <td>Assistant Professor</td>
-                <td>Machine Learning</td>
-              </tr>
-              <tr>
-                <th scope="row">14</th>
-                <td>Madhusudan G</td>
-                <td>Assistant Professor</td>
-                <td>Wireless Networks</td>
-              </tr>
-              <tr>
-                <th scope="row">15</th>
-                <td>Brunda S</td>
-                <td>Assistant Professor</td>
-                <td>Image Processing</td>
-              </tr>
-              <tr>
-                <th scope="row">16</th>
-                <td>Manjula S</td>
-                <td>Assistant Professor</td>
-                <td>Computer Networks</td>
-              </tr>
-              <tr>
-                <th scope="row">17</th>
-                <td>Divakara N</td>
-                <td>Assistant Professor</td>
-                <td>Natural Language Processing</td>
-              </tr>
-              <tr>
-                <th scope="row">18</th>
-                <td>R Guru</td>
-                <td>Assistant Professor</td>
-                <td>Wireless Sensor Network</td>
-              </tr>
-              <tr>
-                <th scope="row">19</th>
-                <td>Vijay M B</td>
-                <td>Assistant Professor</td>
-                <td>Computer Network</td>
-              </tr>
-              <tr>
-                <th scope="row">20</th>
-                <td>Mahesh K S</td>
-                <td>Assistant Professor</td>
-                <td>Data Mining</td>
-              </tr>
-              <tr>
-                <th scope="row">21</th>
-                <td>Sreenivasa T</td>
-                <td>Assistant Professor</td>
-                <td>Cloud Computing, Image Processing</td>
-              </tr>
-              <tr>
-                <th scope="row">22</th>
-                <td>Bindiya A R</td>
-                <td>Assistant Professor</td>
-                <td>Machine Learning, Data Mining</td>
-              </tr>
-              <tr>
-                <th scope="row">23</th>
-                <td>Ashritha R Murthy</td>
-                <td>Assistant Professor</td>
-                <td>Data Mining, Web Mining</td>
-              </tr>
-              <tr>
-                <th scope="row">24</th>
-                <td>Varsha V</td>
-                <td>Assistant Professor</td>
-                <td>Wireless, 5G and IOT Networks</td>
-              </tr>
-              <tr>
-                <th scope="row">25</th>
-                <td>Shruthi N M</td>
-                <td>Assistant Professor</td>
-                <td>Image Processing</td>
-              </tr>
-              <tr>
-                <th scope="row">26</th>
-                <td>Shalini K C</td>
-                <td>Assistant Professor</td>
-                <td>Machine Learning, Internet of Things</td>
-              </tr>
-            </tbody>
-            </table>
-          </div>
-        </div>
-        </div>
-        </div>
-      </div>*/}
         <div className="container">
           <div className="section-title text-center mt-5">
             <h3>FACULTY</h3>
@@ -196,7 +14,7 @@ const Faculty = () => {
 
           <div className="row dev-list text-center" style={{ padding: "10px" }}>
             <div
-              className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+              className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
               data-wow-duration="1s"
               data-wow-delay="0.2s"
             >
@@ -217,7 +35,7 @@ const Faculty = () => {
 
                 </p>
 
-                <div className="footer-social d-flex justify-content-center" >
+                <div className="faculty-social d-flex justify-content-center" >
                   <a href="#" className="btn global-radius">
                     <i className="fa fa-facebook"></i>
                   </a>
@@ -233,7 +51,7 @@ const Faculty = () => {
             </div>
 
             <div
-              className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+              className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
               data-wow-duration="1s"
               data-wow-delay="0.4s"
             >
@@ -254,7 +72,7 @@ const Faculty = () => {
                   Current research interest in the area of Image Processing and Analysis, Information Retrieval and Data Mining.
                 </p>
 
-                <div className="footer-social d-flex justify-content-center" >
+                <div className="faculty-social d-flex justify-content-center" >
                   <a href="#" className="btn global-radius">
                     <i className="fa fa-facebook"></i>
                   </a>
@@ -270,7 +88,7 @@ const Faculty = () => {
             </div>
 
             <div
-              className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+              className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
               data-wow-duration="1s"
               data-wow-delay="0.2s"
             >
@@ -289,7 +107,7 @@ const Faculty = () => {
                   He works in the area of document image processing, Natural Language Processing and Digital Image processing.
                 </p>
 
-                <div className="footer-social d-flex justify-content-center" >
+                <div className="faculty-social d-flex justify-content-center" >
                   <a href="#" className="btn global-radius">
                     <i className="fa fa-facebook"></i>
                   </a>
@@ -305,12 +123,12 @@ const Faculty = () => {
             </div>
 
 
-          </div>
+          {/*</div>
 
-          <div className="row dev-list text-center" style={{ padding: "10px" }}>
+          <div className="row dev-list text-center" style={{ padding: "10px" }}>*/}
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -329,7 +147,7 @@ const Faculty = () => {
                 His area of Interest are Text mining, Sentiment Analysis, Data mining, Opinion mining, Web Mining, Data Analytics and Computer Network.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -345,7 +163,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.6s"
           >
@@ -364,7 +182,7 @@ const Faculty = () => {
                 She works in the area of speech signal processing,Computational Intelligence, Machine Translation and Natural Language Processing.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -380,7 +198,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -398,7 +216,7 @@ const Faculty = () => {
                 His research interest is in the area of Computer Networks, Security, Cloud Computing, IoT, Machine Learning and has industry experience too.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -413,12 +231,12 @@ const Faculty = () => {
             </div>
           </div>
 
-          </div>
+          {/*</div>
 
-          <div className="row dev-list text-center" style={{ padding: "10px" }}>
+          <div className="row dev-list text-center" style={{ padding: "10px" }}>*/}
 
            <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.2s"
            >
@@ -437,7 +255,7 @@ const Faculty = () => {
                 His areas of specialization are Data Mining, Computer Networks and Software Engineering. He is pursuing his research in Data Mining & Network Security.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -453,7 +271,7 @@ const Faculty = () => {
            </div>
 
            <div
-             className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+             className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
              data-wow-duration="1s"
              data-wow-delay="0.4s"
            >
@@ -472,7 +290,7 @@ const Faculty = () => {
                  Her research interests are Machine Learning, Image Processing, Big Data Analytics and Cognitive Computing.
                </p>
 
-               <div className="footer-social d-flex justify-content-center" >
+               <div className="faculty-social d-flex justify-content-center" >
                  <a href="#" className="btn global-radius">
                    <i className="fa fa-facebook"></i>
                  </a>
@@ -488,7 +306,7 @@ const Faculty = () => {
            </div>
 
            <div
-             className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+             className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
              data-wow-duration="1s"
              data-wow-delay="0.4s"
            >
@@ -508,7 +326,7 @@ const Faculty = () => {
                  in the area of Digital Pathology and Medical Imaging. His research interests are Medical Imaging, AI and HPC.
                </p>
 
-               <div className="footer-social d-flex justify-content-center" >
+               <div className="faculty-social d-flex justify-content-center" >
                  <a href="#" className="btn global-radius">
                    <i className="fa fa-facebook"></i>
                  </a>
@@ -523,11 +341,11 @@ const Faculty = () => {
              </div>
            </div>
 
-          </div>
+          {/*</div>
 
-          <div className="row dev-list text-center" style={{ padding: "10px" }}>
+          <div className="row dev-list text-center" style={{ padding: "10px" }}>*/}
             <div
-              className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+              className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
               data-wow-duration="1s"
               data-wow-delay="0.4s"
             >
@@ -546,7 +364,7 @@ const Faculty = () => {
                   Speech and Image Signal Processing, Information Retrieval and Machine Learning.
                 </p>
 
-                <div className="footer-social d-flex justify-content-center" >
+                <div className="faculty-social d-flex justify-content-center" >
                   <a href="#" className="btn global-radius">
                     <i className="fa fa-facebook"></i>
                   </a>
@@ -562,7 +380,7 @@ const Faculty = () => {
             </div>
 
             <div
-              className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+              className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
               data-wow-duration="1s"
               data-wow-delay="0.4s"
             >
@@ -581,7 +399,7 @@ const Faculty = () => {
                   He is currently involved in Clinical Speech Processing research.
                 </p>
 
-                <div className="footer-social d-flex justify-content-center" >
+                <div className="faculty-social d-flex justify-content-center" >
                   <a href="#" className="btn global-radius">
                     <i className="fa fa-facebook"></i>
                   </a>
@@ -598,7 +416,7 @@ const Faculty = () => {
 
 
             <div
-              className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+              className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
               data-wow-duration="1s"
               data-wow-delay="0.4s"
             >
@@ -616,7 +434,7 @@ const Faculty = () => {
                   She is pursuing P.hD in the area of Medical Image Processing and Machine Learning.
                 </p>
 
-                <div className="footer-social d-flex justify-content-center" >
+                <div className="faculty-social d-flex justify-content-center" >
                   <a href="#" className="btn global-radius">
                     <i className="fa fa-facebook"></i>
                   </a>
@@ -630,12 +448,12 @@ const Faculty = () => {
                 </div>
               </div>
             </div>
-          </div>
+          {/*</div>
 
-          <div className="row dev-list text-center" style={{ padding: "10px" }}>
+          <div className="row dev-list text-center" style={{ padding: "10px" }}>*/}
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -654,7 +472,7 @@ const Faculty = () => {
                 She is pursuing P.hD in the area of Image Processing and Artificial Intelligence.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -670,7 +488,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -689,7 +507,7 @@ const Faculty = () => {
                 He is pursuing Ph.D. in the area of computer and Mobile Adhoc Networks.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -705,7 +523,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.2s"
           >
@@ -724,7 +542,7 @@ const Faculty = () => {
                 She is currently pursuing her Doctoral Degree. Her research interest are Image Forensic and Computer Vision.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i
                     className="fa fa-facebook"
@@ -745,12 +563,12 @@ const Faculty = () => {
             </div>
           </div>
 
-          </div>
+          {/*</div>
 
-          <div className="row dev-list text-center" style={{ padding: "10px" }}>
+          <div className="row dev-list text-center" style={{ padding: "10px" }}>*/}
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -769,7 +587,7 @@ const Faculty = () => {
                 She works in the areas of Wireless Networks in Computer Networking.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -785,7 +603,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.6s"
           >
@@ -805,7 +623,7 @@ const Faculty = () => {
                  Operating Systems and Web Technologies.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -821,7 +639,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.6s"
           >
@@ -840,7 +658,7 @@ const Faculty = () => {
                His areas of interest are Computer Network, Wireless Sensor Networks, Cloud Computing, IoT.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -855,12 +673,12 @@ const Faculty = () => {
             </div>
           </div>
 
-          </div>
+          {/*</div>
 
-          <div className="row dev-list text-center" style={{ padding: "10px" }}>
+          <div className="row dev-list text-center" style={{ padding: "10px" }}>*/}
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -880,7 +698,7 @@ const Faculty = () => {
                 His teaching and research interests are Distributed System and Networking.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -896,7 +714,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.6s"
           >
@@ -916,7 +734,7 @@ const Faculty = () => {
                 He is having 17 years of industry experience.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -932,7 +750,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -951,7 +769,7 @@ const Faculty = () => {
                 His area of specialization is Cloud Computing and Image Processing.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -966,12 +784,12 @@ const Faculty = () => {
             </div>
           </div>
 
-          </div>
+          {/*</div>
 
-          <div className="row dev-list text-center" style={{ padding: "10px" }}>
+          <div className="row dev-list text-center" style={{ padding: "10px" }}>*/}
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -989,7 +807,7 @@ const Faculty = () => {
                 She is pursuing PhD in the area of Image Processing and Data Mining.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -1005,7 +823,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -1023,7 +841,7 @@ const Faculty = () => {
                 She is pursuing Ph.D in the area of Text Analytics and Web Mining.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -1039,7 +857,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -1057,7 +875,7 @@ const Faculty = () => {
                 She is pursuing PhD in the area of Networking.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -1072,12 +890,12 @@ const Faculty = () => {
             </div>
           </div>
 
-          </div>
+          {/*</div>
 
-          <div className="row dev-list text-center" style={{ padding: "10px" }}>
+          <div className="row dev-list text-center" style={{ padding: "10px" }}>*/}
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -1096,7 +914,7 @@ const Faculty = () => {
                  She is pursuing P.hD in the area of Image Processing.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -1112,7 +930,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -1130,7 +948,7 @@ const Faculty = () => {
                 She is currently pursuing PhD in the area of Machine Learning and Neural Networks.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -1146,7 +964,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -1164,7 +982,7 @@ const Faculty = () => {
                 His research interest are Big Data, Data Mining, Cloud Computing.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
