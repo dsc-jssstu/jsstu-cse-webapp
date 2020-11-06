@@ -19,7 +19,7 @@
 }
 
 /**************************************
-GRADIENTS 
+GRADIENTS
 **************************************/
 
 #faculty .btn-buy:hover,
@@ -64,7 +64,7 @@ GRADIENTS
 }
 
 /**************************************
-OTHERS 
+OTHERS
 **************************************/
 
 #faculty .app_iphone_01 {
@@ -253,7 +253,7 @@ OTHERS
   width: 100%;
 }
 
-#faculty .footer-social .btn {
+#faculty .faculty-social .btn {
   padding: 2px;
   width: 35px;
   height: 35px;
@@ -265,7 +265,7 @@ OTHERS
   background-color: #004a99 !important;
 }
 
-#faculty .fa {
+#faculty .faculty-social .fa {
   color: #fff;
 }
 

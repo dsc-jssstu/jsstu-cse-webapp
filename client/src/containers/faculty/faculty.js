@@ -35,7 +35,7 @@ const Faculty = () => {
 
                 </p>
 
-                <div className="footer-social d-flex justify-content-center" >
+                <div className="faculty-social d-flex justify-content-center" >
                   <a href="#" className="btn global-radius">
                     <i className="fa fa-facebook"></i>
                   </a>
@@ -72,7 +72,7 @@ const Faculty = () => {
                   Current research interest in the area of Image Processing and Analysis, Information Retrieval and Data Mining.
                 </p>
 
-                <div className="footer-social d-flex justify-content-center" >
+                <div className="faculty-social d-flex justify-content-center" >
                   <a href="#" className="btn global-radius">
                     <i className="fa fa-facebook"></i>
                   </a>
@@ -107,7 +107,7 @@ const Faculty = () => {
                   He works in the area of document image processing, Natural Language Processing and Digital Image processing.
                 </p>
 
-                <div className="footer-social d-flex justify-content-center" >
+                <div className="faculty-social d-flex justify-content-center" >
                   <a href="#" className="btn global-radius">
                     <i className="fa fa-facebook"></i>
                   </a>
@@ -147,7 +147,7 @@ const Faculty = () => {
                 His area of Interest are Text mining, Sentiment Analysis, Data mining, Opinion mining, Web Mining, Data Analytics and Computer Network.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -182,7 +182,7 @@ const Faculty = () => {
                 She works in the area of speech signal processing,Computational Intelligence, Machine Translation and Natural Language Processing.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -216,7 +216,7 @@ const Faculty = () => {
                 His research interest is in the area of Computer Networks, Security, Cloud Computing, IoT, Machine Learning and has industry experience too.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -255,7 +255,7 @@ const Faculty = () => {
                 His areas of specialization are Data Mining, Computer Networks and Software Engineering. He is pursuing his research in Data Mining & Network Security.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -290,7 +290,7 @@ const Faculty = () => {
                  Her research interests are Machine Learning, Image Processing, Big Data Analytics and Cognitive Computing.
                </p>
 
-               <div className="footer-social d-flex justify-content-center" >
+               <div className="faculty-social d-flex justify-content-center" >
                  <a href="#" className="btn global-radius">
                    <i className="fa fa-facebook"></i>
                  </a>
@@ -326,7 +326,7 @@ const Faculty = () => {
                  in the area of Digital Pathology and Medical Imaging. His research interests are Medical Imaging, AI and HPC.
                </p>
 
-               <div className="footer-social d-flex justify-content-center" >
+               <div className="faculty-social d-flex justify-content-center" >
                  <a href="#" className="btn global-radius">
                    <i className="fa fa-facebook"></i>
                  </a>
@@ -364,7 +364,7 @@ const Faculty = () => {
                   Speech and Image Signal Processing, Information Retrieval and Machine Learning.
                 </p>
 
-                <div className="footer-social d-flex justify-content-center" >
+                <div className="faculty-social d-flex justify-content-center" >
                   <a href="#" className="btn global-radius">
                     <i className="fa fa-facebook"></i>
                   </a>
@@ -399,7 +399,7 @@ const Faculty = () => {
                   He is currently involved in Clinical Speech Processing research.
                 </p>
 
-                <div className="footer-social d-flex justify-content-center" >
+                <div className="faculty-social d-flex justify-content-center" >
                   <a href="#" className="btn global-radius">
                     <i className="fa fa-facebook"></i>
                   </a>
@@ -434,7 +434,7 @@ const Faculty = () => {
                   She is pursuing P.hD in the area of Medical Image Processing and Machine Learning.
                 </p>
 
-                <div className="footer-social d-flex justify-content-center" >
+                <div className="faculty-social d-flex justify-content-center" >
                   <a href="#" className="btn global-radius">
                     <i className="fa fa-facebook"></i>
                   </a>
@@ -472,7 +472,7 @@ const Faculty = () => {
                 She is pursuing P.hD in the area of Image Processing and Artificial Intelligence.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -507,7 +507,7 @@ const Faculty = () => {
                 He is pursuing Ph.D. in the area of computer and Mobile Adhoc Networks.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -542,7 +542,7 @@ const Faculty = () => {
                 She is currently pursuing her Doctoral Degree. Her research interest are Image Forensic and Computer Vision.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i
                     className="fa fa-facebook"
@@ -587,7 +587,7 @@ const Faculty = () => {
                 She works in the areas of Wireless Networks in Computer Networking.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -623,7 +623,7 @@ const Faculty = () => {
                  Operating Systems and Web Technologies.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -658,7 +658,7 @@ const Faculty = () => {
                His areas of interest are Computer Network, Wireless Sensor Networks, Cloud Computing, IoT.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -698,7 +698,7 @@ const Faculty = () => {
                 His teaching and research interests are Distributed System and Networking.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -734,7 +734,7 @@ const Faculty = () => {
                 He is having 17 years of industry experience.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -769,7 +769,7 @@ const Faculty = () => {
                 His area of specialization is Cloud Computing and Image Processing.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -807,7 +807,7 @@ const Faculty = () => {
                 She is pursuing PhD in the area of Image Processing and Data Mining.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -841,7 +841,7 @@ const Faculty = () => {
                 She is pursuing Ph.D in the area of Text Analytics and Web Mining.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -875,7 +875,7 @@ const Faculty = () => {
                 She is pursuing PhD in the area of Networking.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -914,7 +914,7 @@ const Faculty = () => {
                  She is pursuing P.hD in the area of Image Processing.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -948,7 +948,7 @@ const Faculty = () => {
                 She is currently pursuing PhD in the area of Machine Learning and Neural Networks.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
@@ -982,7 +982,7 @@ const Faculty = () => {
                 His research interest are Big Data, Data Mining, Cloud Computing.
               </p>
 
-              <div className="footer-social d-flex justify-content-center" >
+              <div className="faculty-social d-flex justify-content-center" >
                 <a href="#" className="btn global-radius">
                   <i className="fa fa-facebook"></i>
                 </a>
