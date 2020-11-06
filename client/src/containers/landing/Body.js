@@ -146,8 +146,7 @@ class Body extends Component {
                   <h4>Our Beloved HOD</h4>
                   <p>
                     Dr. M P Pushpalatha, HOD pf department of Computer Science
-                    and Engineering, has mastered in the field of... graduated
-                    from.....
+                    and Engineering, graduated from Visvesvaraya Technological University (VTU), Belagavi.
                   </p>
                   <p>
                     Professor in the department of Computer Science and
@@ -175,7 +174,7 @@ class Body extends Component {
             </div>
           </div>
 
-          {/*FACULTY*/}
+          {/*FACULTY
           <section id="faculty" className="wow fadeIn">
             <div className="container">
               <header className="section-header">
@@ -360,7 +359,7 @@ class Body extends Component {
               </div>
               </div>
             </div>
-          </section>
+          </section> */}
 
 
           {/* SERVICES ABOUT SECTION */}

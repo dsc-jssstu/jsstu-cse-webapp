@@ -120,13 +120,13 @@ class Landing extends Component {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <a href={"#about"}>About Us</a>
+                  <a href={"/.#about"}>About Us</a>
                 </li>
                 <li>
-                  <a href={"#services"}>Facilities</a>
+                  <a href={"/.#services"}>Facilities</a>
                 </li>
                 <li>
-                  <a href={"#faculty"}>Faculty</a>
+                  <a href={"/faculty"}>Faculty</a>
                 </li>
 
                 <li className="drop-down">
@@ -147,7 +147,7 @@ class Landing extends Component {
                   </ul>
                 </li>
                 <li>
-                  <a href="#contact">Contact Us</a>
+                  <a href="/.#contact">Contact Us</a>
                 </li>
                 {logoutBtn}
               </ul>
@@ -162,13 +162,13 @@ class Landing extends Component {
             </li>
 
             <li>
-              <a href={"#about"}>About Us</a>
+              <a href={"/.#about"}>About Us</a>
             </li>
             <li>
-              <a href={"#services"}>Facilities</a>
+              <a href={"/.#services"}>Facilities</a>
             </li>
             <li>
-              <a href={"#faculty"}>Faculty</a>
+              <a href={"../faculty/faculty.js"}>Faculty</a>
             </li>
 
             <li className="drop-down">
@@ -189,7 +189,7 @@ class Landing extends Component {
               </ul>
             </li>
             <li>
-              <a href={"#contact"}>Contact Us</a>
+              <a href={"/.#contact"}>Contact Us</a>
             </li>
             {logoutBtn}
           </ul>
