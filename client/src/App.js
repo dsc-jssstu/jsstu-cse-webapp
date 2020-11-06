@@ -59,7 +59,7 @@ class App extends Component {
               <Route path="/faculty" render={() => <Faculty />} />
               <Redirect to="/" />
           </Switch>
-       ) 
+       )
       }else{
          routes = (
         <Switch>
