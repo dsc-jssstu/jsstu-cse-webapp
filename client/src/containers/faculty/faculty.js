@@ -7,188 +7,6 @@ const Faculty = () => {
   return (
 
       <div id="faculty" className="section wb">
-      {/*<div id="faculty" className="section wb">
-        <div className="container">
-        <div className="section-title text-center mt-5">
-          <h3>FACULTY</h3>
-        </div>
-
-        <div className="row">
-        <div class="card mx-auto col-md-12 wow fadeInUp">
-          <div class="card-body text-left">
-          <table class="table table-striped">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Name</th>
-                <th scope="col">Designation</th>
-                <th scope="col">Research Interests</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Dr. M P Pushpalatha</td>
-                <td>Head of Department</td>
-                <td>Machine Learning, Health Information</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Dr. Vijayalakshmi H C</td>
-                <td>Professor</td>
-                <td>Image Processing, Machine Learning and Pattern Recognition</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Dr. Srinath S</td>
-                <td>Associate Professor</td>
-                <td></td>
-              </tr>
-              <tr>
-                <th scope="row">4</th>
-                <td>Dr. Anil Kumar K M</td>
-                <td>Associate Professor</td>
-                <td>Web Mining</td>
-              </tr>
-              <tr>
-                <th scope="row">5</th>
-                <td>Dr Anusuya M A</td>
-                <td>Associate Professor</td>
-                <td>Speech Processing</td>
-              </tr>
-              <tr>
-                <th scope="row">6</th>
-                <td>Dr Prasanna B T</td>
-                <td>Associate Professor</td>
-                <td>Computer Network and Security</td>
-              </tr>
-              <tr>
-                <th scope="row">7</th>
-                <td>Chandrashekar A M</td>
-                <td>Assistant Professor</td>
-                <td>Data Mining, Network Security</td>
-              </tr>
-              <tr>
-                <th scope="row">8</th>
-                <td>Dr. Manimala S</td>
-                <td>Assistant Professor</td>
-                <td>Image Processing, Machine Learning</td>
-              </tr>
-              <tr>
-                <th scope="row">9</th>
-                <td>Shivamurthy P M</td>
-                <td>Assistant Professor</td>
-                <td>Medical Imaging, Machine Learning and Artificial Intelligence</td>
-              </tr>
-              <tr>
-                <th scope="row">10</th>
-                <td>Dr Trisiladevi C. Nagavi</td>
-                <td>Assistant Professor</td>
-                <td>Machine Learning, Speech and Audio Processing</td>
-              </tr>
-              <tr>
-                <th scope="row">11</th>
-                <td>Dr Mahesha P</td>
-                <td>Assistant Professor</td>
-                <td>Clinical Speech Processing, Machine Learning</td>
-              </tr>
-              <tr>
-                <th scope="row">12</th>
-                <td>Sheela N.</td>
-                <td>Assistant Professor</td>
-                <td>Image Processing, Machine Learning</td>
-              </tr>
-              <tr>
-                <th scope="row">13</th>
-                <td>Vani Ashok</td>
-                <td>Assistant Professor</td>
-                <td>Machine Learning</td>
-              </tr>
-              <tr>
-                <th scope="row">14</th>
-                <td>Madhusudan G</td>
-                <td>Assistant Professor</td>
-                <td>Wireless Networks</td>
-              </tr>
-              <tr>
-                <th scope="row">15</th>
-                <td>Brunda S</td>
-                <td>Assistant Professor</td>
-                <td>Image Processing</td>
-              </tr>
-              <tr>
-                <th scope="row">16</th>
-                <td>Manjula S</td>
-                <td>Assistant Professor</td>
-                <td>Computer Networks</td>
-              </tr>
-              <tr>
-                <th scope="row">17</th>
-                <td>Divakara N</td>
-                <td>Assistant Professor</td>
-                <td>Natural Language Processing</td>
-              </tr>
-              <tr>
-                <th scope="row">18</th>
-                <td>R Guru</td>
-                <td>Assistant Professor</td>
-                <td>Wireless Sensor Network</td>
-              </tr>
-              <tr>
-                <th scope="row">19</th>
-                <td>Vijay M B</td>
-                <td>Assistant Professor</td>
-                <td>Computer Network</td>
-              </tr>
-              <tr>
-                <th scope="row">20</th>
-                <td>Mahesh K S</td>
-                <td>Assistant Professor</td>
-                <td>Data Mining</td>
-              </tr>
-              <tr>
-                <th scope="row">21</th>
-                <td>Sreenivasa T</td>
-                <td>Assistant Professor</td>
-                <td>Cloud Computing, Image Processing</td>
-              </tr>
-              <tr>
-                <th scope="row">22</th>
-                <td>Bindiya A R</td>
-                <td>Assistant Professor</td>
-                <td>Machine Learning, Data Mining</td>
-              </tr>
-              <tr>
-                <th scope="row">23</th>
-                <td>Ashritha R Murthy</td>
-                <td>Assistant Professor</td>
-                <td>Data Mining, Web Mining</td>
-              </tr>
-              <tr>
-                <th scope="row">24</th>
-                <td>Varsha V</td>
-                <td>Assistant Professor</td>
-                <td>Wireless, 5G and IOT Networks</td>
-              </tr>
-              <tr>
-                <th scope="row">25</th>
-                <td>Shruthi N M</td>
-                <td>Assistant Professor</td>
-                <td>Image Processing</td>
-              </tr>
-              <tr>
-                <th scope="row">26</th>
-                <td>Shalini K C</td>
-                <td>Assistant Professor</td>
-                <td>Machine Learning, Internet of Things</td>
-              </tr>
-            </tbody>
-            </table>
-          </div>
-        </div>
-        </div>
-        </div>
-      </div>*/}
         <div className="container">
           <div className="section-title text-center mt-5">
             <h3>FACULTY</h3>
@@ -196,7 +14,7 @@ const Faculty = () => {
 
           <div className="row dev-list text-center" style={{ padding: "10px" }}>
             <div
-              className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+              className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
               data-wow-duration="1s"
               data-wow-delay="0.2s"
             >
@@ -233,7 +51,7 @@ const Faculty = () => {
             </div>
 
             <div
-              className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+              className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
               data-wow-duration="1s"
               data-wow-delay="0.4s"
             >
@@ -270,7 +88,7 @@ const Faculty = () => {
             </div>
 
             <div
-              className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+              className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
               data-wow-duration="1s"
               data-wow-delay="0.2s"
             >
@@ -305,12 +123,12 @@ const Faculty = () => {
             </div>
 
 
-          </div>
+          {/*</div>
 
-          <div className="row dev-list text-center" style={{ padding: "10px" }}>
+          <div className="row dev-list text-center" style={{ padding: "10px" }}>*/}
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -345,7 +163,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.6s"
           >
@@ -380,7 +198,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -413,12 +231,12 @@ const Faculty = () => {
             </div>
           </div>
 
-          </div>
+          {/*</div>
 
-          <div className="row dev-list text-center" style={{ padding: "10px" }}>
+          <div className="row dev-list text-center" style={{ padding: "10px" }}>*/}
 
            <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.2s"
            >
@@ -453,7 +271,7 @@ const Faculty = () => {
            </div>
 
            <div
-             className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+             className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
              data-wow-duration="1s"
              data-wow-delay="0.4s"
            >
@@ -488,7 +306,7 @@ const Faculty = () => {
            </div>
 
            <div
-             className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+             className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
              data-wow-duration="1s"
              data-wow-delay="0.4s"
            >
@@ -523,11 +341,11 @@ const Faculty = () => {
              </div>
            </div>
 
-          </div>
+          {/*</div>
 
-          <div className="row dev-list text-center" style={{ padding: "10px" }}>
+          <div className="row dev-list text-center" style={{ padding: "10px" }}>*/}
             <div
-              className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+              className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
               data-wow-duration="1s"
               data-wow-delay="0.4s"
             >
@@ -562,7 +380,7 @@ const Faculty = () => {
             </div>
 
             <div
-              className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+              className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
               data-wow-duration="1s"
               data-wow-delay="0.4s"
             >
@@ -598,7 +416,7 @@ const Faculty = () => {
 
 
             <div
-              className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+              className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
               data-wow-duration="1s"
               data-wow-delay="0.4s"
             >
@@ -630,12 +448,12 @@ const Faculty = () => {
                 </div>
               </div>
             </div>
-          </div>
+          {/*</div>
 
-          <div className="row dev-list text-center" style={{ padding: "10px" }}>
+          <div className="row dev-list text-center" style={{ padding: "10px" }}>*/}
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -670,7 +488,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -705,7 +523,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.2s"
           >
@@ -745,12 +563,12 @@ const Faculty = () => {
             </div>
           </div>
 
-          </div>
+          {/*</div>
 
-          <div className="row dev-list text-center" style={{ padding: "10px" }}>
+          <div className="row dev-list text-center" style={{ padding: "10px" }}>*/}
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -785,7 +603,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.6s"
           >
@@ -821,7 +639,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.6s"
           >
@@ -855,12 +673,12 @@ const Faculty = () => {
             </div>
           </div>
 
-          </div>
+          {/*</div>
 
-          <div className="row dev-list text-center" style={{ padding: "10px" }}>
+          <div className="row dev-list text-center" style={{ padding: "10px" }}>*/}
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -896,7 +714,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.6s"
           >
@@ -932,7 +750,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -966,12 +784,12 @@ const Faculty = () => {
             </div>
           </div>
 
-          </div>
+          {/*</div>
 
-          <div className="row dev-list text-center" style={{ padding: "10px" }}>
+          <div className="row dev-list text-center" style={{ padding: "10px" }}>*/}
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -1005,7 +823,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -1039,7 +857,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -1072,12 +890,12 @@ const Faculty = () => {
             </div>
           </div>
 
-          </div>
+          {/*</div>
 
-          <div className="row dev-list text-center" style={{ padding: "10px" }}>
+          <div className="row dev-list text-center" style={{ padding: "10px" }}>*/}
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -1112,7 +930,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >
@@ -1146,7 +964,7 @@ const Faculty = () => {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn"
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.4s"
           >

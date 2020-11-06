@@ -196,9 +196,9 @@ h6 {
 #intro .intro-info h4 {
   color: #fff;
   margin-top: 40px;
-  font-size: 42px;
+  font-size: 28px;
   /*text-align: center;*/
-  font-weight: 600;
+  font-weight: 500;
 }
 
 #intro .intro-info h4 span {
