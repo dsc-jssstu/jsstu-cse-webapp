@@ -15,6 +15,12 @@
 #faculty .dev-list .widget {
   padding: 20px 15px;
   margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+#faculty {
+  padding-bottom: 0;
 }
 
 /*------------------------------------------------------------------
@@ -57,6 +63,7 @@
   overflow: hidden;
   padding: 120px 0;
 }
+
 
 .noover {
   overflow: visible;
@@ -128,10 +135,11 @@
   display: block;
   position: relative;
   margin-bottom: 60px;
+  color: #f4f4f4;
 }
 
 .section-title p {
-  color: #999;
+  color: #f4f4f4;
   font-weight: 400;
   font-size: 18px;
   line-height: 33px;
@@ -152,6 +160,28 @@
 .section.db h3 {
   color: #ffffff;
 }
+
+.widget-title h3 {
+  color: #485aff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.widget{
+  background-color: #ffffff;
+  border-radius: 2.5rem 0rem;
+  margin: 1.25rem;
+  height: 32rem !important;
+
+}
+.widget-title small, .widget p {
+  color: #485aff;
+  font-family: 'Montserrat', sans-serif;
+}
+.footer-social{
+  margin-top: auto;
+
+}
+
 
 /*------------------------------------------------------------------
     ICON BOXES
