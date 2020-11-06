@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-RUN sh -c "cd /usr/src/app/client && npm run build"
+RUN sh -c "cd /usr/src/app/client && npm install && npm run build"
 
 CMD [ "npm", "start" ]
 
