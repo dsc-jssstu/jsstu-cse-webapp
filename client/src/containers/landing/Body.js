@@ -439,9 +439,9 @@ class Body extends Component {
           <div className="p-md-4">
             <div className="background order-lg-2 order-1 wow fadeInUp">
               <img
-                src="../../assets/cs.jpg"
+                src={require("../../views/img/cs.JPG")}
                 className="img-fluid img-branch"
-                alt=""
+                alt="group photo"
               />
             </div>
           </div>
