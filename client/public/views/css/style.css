@@ -609,6 +609,19 @@ h6 {
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 #00000057, 0 6px 20px 0 #00000088;
 }
+
+.nav-pills a, .nav-tabs a{
+  color: #000;
+}
+
+.nav-pills a:hover, .nav-tabs a:hover, .nav-tabs .active{
+  color: blue !important;
+}
+
+.obe table, .obe th, .obe td {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
 /* Services Section
 --------------------------------*/
 

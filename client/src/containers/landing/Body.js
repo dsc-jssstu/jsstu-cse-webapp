@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import Tabs from 'react-bootstrap/Tabs';
+import Tab from 'react-bootstrap/Tabs';
 
 class Body extends Component {
   render() {
@@ -77,17 +79,7 @@ class Body extends Component {
                       <a href="#1">Vision</a>
                     </h4>
                     <p className="description">
-                      Advancing JSS S&T University as a leader in education,
-                      research and technology on the international arena. To
-                      provide the students a universal platform to launch their
-                      careers, vesting the industry and research community with
-                      skilled and professional workforce. Accomplishing JSS S&T
-                      University as an epicentre for innovation, centre of
-                      excellence for research with state of the art lab
-                      facilities. Fostering an erudite, professional forum for
-                      researchers and industrialist to coexist and to work
-                      cohesively for the growth and development of science and
-                      technology for betterment of society
+                      Seek to become a universally well known academic centre for teaching, learning, research and innovation in the field of Computer Science & Engineering
                     </p>
                   </div>
                 </div>
@@ -100,17 +92,13 @@ class Body extends Component {
                       <a href="#1">Mission </a>
                     </h4>
 
-                    <p className="description">
-                      Education, research and social outreach are the core
-                      doctrines of JSS S&T University that are responsible for
-                      accomplishment of in-depth knowledge base, professional
-                      skill and innovative technologies required to improve the
-                      socio economic conditions of the country. Our mission is
-                      to develop JSS S&T University as a global destination for
-                      cohesive learning of engineering, science and management
-                      which are strongly supported with interdisciplinary
-                      research and academia.
-                    </p>
+                    <ul className="description">
+                      <li>Impart quality education with an emphasis on basic principles of Computer Science and Engineering.</li>
+                      <li>Inculcate advancements in curriculum and pedagogy to enhance teaching and learning process.</li>
+                      <li>Foster research and collaboration with premier institutions and industries.</li>
+                      <li>Promote innovation and entrepreneurship for the betterment of society.</li>
+                    </ul>
+
                   </div>
                 </div>
 
@@ -132,6 +120,290 @@ class Body extends Component {
                     </div> */}
               </div>
 
+              <div className="row py-5">
+                <div className="col">
+                <Tabs defaultActiveKey="peo" id="uncontrolled-tab-example">
+                  <Tab eventKey="peo" title="&nbsp;&nbsp;&nbsp;PEO&nbsp;&nbsp;&nbsp;">
+                    <div className="py-5">
+                      <strong>Program Educational Objectives (PEOs)</strong>
+                      <ul>
+                       	<li><strong>PEO1</strong>: Excel in professional career across industries and institutes that emphasizes on Innovation and problem solving.</li>
+                       	<li><strong>PEO2</strong>: Collaborate successfully with peers, colleagues and organizations.</li>
+                       	<li><strong>PEO3</strong>: Work as ethical and responsible members of the computing profession and society.</li>
+                      </ul>
+                    </div>
+                  </Tab>
+                  <Tab eventKey="pso" title="&nbsp;&nbsp;&nbsp;PSO&nbsp;&nbsp;&nbsp;">
+                    <div className="py-5">
+                      <strong>PROGRAMME SPECIFIC OUTCOMES (PSOs)</strong>
+                      <ul>
+                        <li><strong>PSO-1:&nbsp; Problem-Solving Skills:</strong>&nbsp; Ability to apply standard practices and mathematical methodologies to solve computational tasks, model real world problems in the areas of database systems, system software, web technologies and Networking solutions with an appropriate knowledge of Data structures and Algorithms</li>
+                        <li><strong>PSO-2: Knowledge of Computer Systems:</strong>&nbsp; An understanding of the structure and working of the computer systems with performance study of various computing architectures</li>
+                        <li><strong>PSO-3: Successful Career and Entrepreneurship:</strong> The ability to get acquaintance with the state of the art software technologies leading to entrepreneurship and higher studies.</li>
+                        <li><strong>PSO-4: Computing and Research Ability:</strong> Ability to use knowledge in various domains to identify research gaps and to provide solution to new ideas leading to innovations.</li>
+                      </ul>
+                    </div>
+                  </Tab>
+                  <Tab eventKey="po" title="&nbsp;&nbsp;&nbsp;PO&nbsp;&nbsp;&nbsp;">
+                    <div className="py-5">
+                      <strong>PROGRAMME OUTCOMES (POs)</strong><br/>
+                      Engineering Graduates will be able to:
+                      <ol>
+                        <li>Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems.</li>
+                        <li>Problem analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.</li>
+                        <li>Design/development of solutions: Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations.</li>
+                        <li>Conduct investigations of complex problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.</li>
+                        <li>Modern tool usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.</li>
+                        <li>The engineer and society: Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice.</li>
+                        <li>Environment and sustainability: Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.</li>
+                        <li>Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice.</li>
+                        <li>Individual and team work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.</li>
+                        <li>Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.</li>
+                        <li>Project management and finance: Demonstrate knowledge and understanding of the engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.</li>
+                        <li>Life-long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.</li>
+                      </ol>
+
+                    </div>
+                  </Tab>
+                </Tabs>
+                </div>
+              </div>
+
+              <div className="row py-5 obe">
+              <header className="section-header col-md-12">
+                <h3>OBE ADMINISTRATION</h3>
+              </header>
+
+                <div className="col">
+                <Tabs defaultActiveKey="dpa" id="uncontrolled-tab-example">
+                  <Tab eventKey="dpa" title="&nbsp;Department Advisory Board&nbsp;">
+                    <div className="py-5">
+                      <ol>
+                        <li>Dr. B.G.Prasad , Professor, BMS College, Bangalore</li>
+                        <li>C. Chandra Sekhar, Professor, IIT Madras, Chennai</li>
+                        <li>Lawrence Mohanraj, IBM India, Bangalore</li>
+                        <li>K. Kesavasamy, TCS, Bangalore</li>
+                      </ol>
+                    </div>
+                  </Tab>
+                  <Tab eventKey="bos" title="&nbsp;Board of Studies&nbsp;">
+                    <div className="py-5">
+                    <table width="100%">
+                      <tbody>
+                        <tr>
+                          <td width="4%"><strong>Sl. No.</strong></td>
+                          <td width="34%"><strong>Category</strong></td>
+                          <td width="20%"><strong>Designation</strong></td>
+                          <td colSpan="2" width="40%"><strong>Name of the Person</strong></td>
+                          </tr>
+                          <tr>
+                          <td width="4%">1</td>
+                          <td width="34%">The Dean(s) of the Faculties</td>
+                          <td width="20%">Ex-Officio Member</td>
+                          <td colSpan="2" width="40%">Dr. T.N. Nagabushan, Principal</td>
+                        </tr>
+                        <tr>
+                          <td width="4%">2</td>
+                          <td width="34%">Head of the Dept.</td>
+                          <td width="20%">Chairperson</td>
+                          <td width="4%">1.</td>
+                          <td width="35%">Dr. H. C. Vijayalakshmi</td>
+                          </tr>
+                          <tr>
+                          <td width="4%">3</td>
+                          <td width="34%">All Professors of the Department</td>
+                          <td width="20%">Members</td>
+                          <td width="4%">2</td>
+                          <td width="35%">Dr. M. P Pushpalatha</td>
+                        </tr>
+                        <tr>
+                          <td rowSpan="2" width="4%">4</td>
+                          <td rowSpan="2" width="34%">Two Senior Associate Professors of the concerned Department by rotation</td>
+                          <td rowSpan="2" width="20%">Members</td>
+                          <td width="4%">1</td>
+                          <td width="35%">&nbsp;Dr. Anil Kumar K.M<p></p>
+                          <p>&nbsp;</p></td>
+                          </tr>
+                          <tr>
+                          <td width="4%">2</td>
+                          <td width="35%">Dr. M.A. Anusuya<p></p>
+                          <p>&nbsp;</p></td>
+                        </tr>
+                        <tr>
+                        <td width="4%">5</td>
+                          <td width="34%">One Senior Assistant Professor of the concerned Department by rotation</td>
+                          <td width="20%">Member</td>
+                          <td width="4%">1</td>
+                          <td width="35%">Dr. S. Srinath</td>
+                          </tr>
+                          <tr>
+                          <td width="4%"></td>
+                          <td width="34%"></td>
+                          <td width="20%"></td>
+                          <td width="4%">1</td>
+                          <td width="35%">Dr. Ananthanarayana&nbsp;V.S.<p></p>
+                          <p>Professor,</p>
+                          <p>Dept.&nbsp;Of&nbsp;Information&nbsp;Technology</p>
+                          <p>N.I.T.K.,&nbsp;Surathkal<br/>
+                          Mangaluru&nbsp;– 575 025<br/>
+                          Email-id: anvs@ nitk.ac.in, dean.rc @nitk.edu.in,</p>
+                          <p>Phone: 91-824-2473550, 91-824-247067.<br/>
+                          Mobile:&nbsp; 9980250204</p></td>
+                        </tr>
+                        <tr>
+                        <td width="4%">7<p></p>
+                          <p>&nbsp;</p></td>
+                          <td width="34%">One External subject expert&nbsp;&nbsp; from any reputed Academic/Research Institutions/other Universities nominated by the Vice Chancellor upon recommendation by the Dean of respective faculty.</td>
+                          <td width="20%">Member</td>
+                          <td width="4%">1</td>
+                          <td width="35%">Prof. Chandrashekar<p></p>
+                          <p>Professor,</p>
+                          <p>Dept. of CS&amp;E,</p>
+                          <p>IIT Madras,</p>
+                          <p>Chennai-600036</p>
+                          <p>Email-id: <a href="mailto:cchandra@iitm.ac.in">cchandra@iitm.ac.in</a></p>
+                          <p>Mobile:9840986782</p>
+                          <p>&nbsp;</p></td>
+                        </tr>
+                        <tr>
+                          <td rowSpan="2" width="4%">8</td>
+                          <td rowSpan="2" width="34%">Two external members from concerned&nbsp; industry/ Government Departments/ Public Sector undertakings/ allied area relating to placement, nominated by the Academic Council upon recommendation by the Dean of respective faculty.</td>
+                          <td width="20%">Members</td>
+                          <td width="4%">1</td>
+                          <td width="35%">&nbsp;Ms. RuchiraKamdar<p></p>
+                          <p>Manager, Software Executive Briefing Center,</p>
+                          <p>IBM India,</p>
+                          <p>Bengaluru<br/>
+                          Email-id:<a href="mailto:kruchir@in.ibm.com">kruchir@in.ibm.com</a><br/>
+                          Mobile: 9844307488</p></td>
+                        </tr>
+                        <tr>
+                          <td width="20%"></td>
+                          <td width="4%">2</td>
+                          <td width="35%">Mr. Sundar K.S<p></p>
+                          <p>Associate Vice President ETA,</p>
+                          <p>Infosys Pvt. Ltd.</p>
+                          <p>Mysuru</p>
+                          <p>Email-Id:sundarks@infosys.com</p>
+                          <p>Mobile: 9845289330</p></td>
+                        </tr>
+                        <tr>
+                          <td width="4%">9</td>
+                          <td width="34%">One postgraduate meritorious alumnus, to be nominated by the Head of the Department.<p></p>
+                          <p>&nbsp;</p></td>
+                          <td width="20%">Member</td>
+                          <td width="4%">1</td>
+                          <td width="35%">Dr. Ramakanth Kumar,<p></p>
+                          <p>Professor &amp; Academic Dean,</p>
+                          <p>RV college of Engineering,</p>
+                          <p>8th mile,</p>
+                          <p>Mysore road,</p>
+                          <p>Bengaluru-560059.</p>
+                          <p>Email-id: <a href="mailto:ramakanthkp@rvce.edu.in">ramakanthkp@rvce.edu.in</a></p>
+                          <p>Mobile: 9886309520</p></td>
+                        </tr>
+                        <tr>
+                          <td rowSpan="3" width="4%"></td>
+                          <td rowSpan="3" width="34%"></td>
+                          <td rowSpan="3" width="20%"></td>
+                          <td width="4%"></td>
+                          <td width="35%">Dr. Suresha,<p></p>
+                          <p>Professor,</p>
+                          <p>DOS in Computer Science,</p>
+                          <p>University of Mysore,</p>
+                          <p>Mysuru -570006.</p>
+                          <p>Email-id: <a href="mailto:sureshabm@yahoo.co.in">sureshabm@yahoo.co.in</a></p>
+                          <p>sureshasuvi@gmail.com</p>
+                          <p>Mobile: 9449810894</p></td>
+                        </tr>
+                        <tr>
+                          <td width="4%">1</td>
+                          <td width="35%">Dr. Guru R<p></p>
+                          <p>Assistant Professor</p></td>
+                        </tr>
+                        <tr>
+                          <td width="4%">2<p></p>
+                          <p>&nbsp;</p></td>
+                          <td width="35%">Dr. Manimala S<p></p>
+                          <p>Assistant Professor</p></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    </div>
+                  </Tab>
+                  <Tab eventKey="mc" title="&nbsp;Mentoring Committee&nbsp;">
+                    <div className="py-5">
+                      <table width="100%">
+                        <tbody>
+                          <tr>
+                            <td width="32"><strong>SI. No</strong></td>
+                            <td width="84"><strong>Semester and section</strong></td>
+                            <td colSpan="5" width="500" className="text-center"><strong>Faculties</strong></td>
+                          </tr>
+                          <tr>
+                            <td width="32">1.</td>
+                            <td width="84">1st semster</td>
+                            <td width="109">Dr. M P Pushpalatha M P(P)</td>
+                            <td width="130">Dr. S Srinath(A)</td>
+                            <td width="76">Dr. M A Anusuya(B)</td>
+                            <td width="83">Prof. R Guru(C)</td>
+                            <td width="101">Dr. T D Roopamala(D)</td>
+                          </tr>
+                          <tr>
+                            <td width="32">2.</td>
+                            <td width="84">3<sup>rd</sup> semester</td>
+                            <td width="109">Dr. T D Roopamala</td>
+                            <td width="130">Prof. Madhusudan G(A)</td>
+                            <td width="76">Prof. Varsha V(B)</td>
+                            <td width="83">Dr. M A Anusuya(C)</td>
+                            <td width="101"></td>
+                          </tr>
+                          <tr>
+                            <td width="32">3.</td>
+                            <td width="84">5<sup>th</sup> semster</td>
+                            <td width="109">Prof. P M Shivamurthy(A)</td>
+                            <td width="130">Prof. A M Chandrashekar(B)</td>
+                            <td width="76"></td>
+                            <td width="83"></td>
+                            <td width="101"></td>
+                          </tr>
+                          <tr>
+                            <td width="32">4.</td>
+                            <td width="84">7<sup>th</sup> semster</td>
+                            <td width="109">Dr. B T Prasanna(A)</td>
+                            <td width="130">Prof. M B Vijay(B)</td>
+                            <td width="76"></td>
+                            <td width="83"></td>
+                            <td width="101"></td>
+                          </tr>
+                          <tr>
+                            <td width="32">5.</td>
+                            <td width="84">M.Tech(CE)</td>
+                            <td width="109">Dr. H C Vijayalakshmi</td>
+                            <td width="130"></td>
+                            <td width="76"></td>
+                            <td width="83"></td>
+                            <td width="101"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <iframe id="s_pdf_frame" src="//docs.google.com/gview?embedded=true&amp;url=http://jssstuniv.in/wp-content/uploads/2018/12/CSE-Mentoring-list.pdf" style={{width: "100%", height:500}} frameBorder="0"></iframe>
+                    </div>
+                  </Tab>
+                  <Tab eventKey="dc" title="&nbsp;Department Committee&nbsp;">
+                    <div className="py-5">
+                        ---
+                    </div>
+                  </Tab>
+                  <Tab eventKey="tp" title="&nbsp;Test Policies&nbsp;">
+                    <div className="py-5">
+                      <iframe id="s_pdf_frame" src="//docs.google.com/gview?embedded=true&amp;url=http://jssstuniv.in/wp-content/uploads/2018/12/CS-Test-conduction-or-Evaluation-policies.pdf" style={{width: "100%", height:500}} frameBorder="0"></iframe>
+                    </div>
+                  </Tab>
+                </Tabs>
+                </div>
+              </div>
+
               <div className="row about-extra">
                 <div className="col-md-4 wow fadeInUp">
                   <img
@@ -143,7 +415,7 @@ class Body extends Component {
                   />
                 </div>
                 <div className="col-md-8 wow fadeInUp pt-5 pt-md-0">
-                  <h4>Our Beloved HOD</h4>
+                  <h4>Head and Professor</h4>
                   <p>
                     Dr. M P Pushpalatha, HOD pf department of Computer Science
                     and Engineering, graduated from Visvesvaraya Technological University (VTU), Belagavi.
@@ -167,7 +439,7 @@ class Body extends Component {
           <div className="p-md-4">
             <div className="background order-lg-2 order-1 wow fadeInUp">
               <img
-                src="https://jssstuniv.in/wp-content/uploads/2018/11/CSE-1800x870.jpg"
+                src="../../assets/cs.jpg"
                 className="img-fluid img-branch"
                 alt=""
               />
@@ -179,7 +451,7 @@ class Body extends Component {
           <section id="services" className="section-bg">
             <div className="container">
               <header className="section-header">
-                <h3>Services</h3>
+                <h3>Department Profile</h3>
               </header>
 
               <div className="row">
@@ -196,7 +468,7 @@ class Body extends Component {
                     </div>
                     <h4 className="title">
                       <a href="http://jssstuniv.in/academics-calendar-of-events/">
-                        Resources
+                        Calendar
                       </a>
                     </h4>
                     <p className="description">
@@ -216,7 +488,7 @@ class Body extends Component {
                       ></i>
                     </div>
                     <h4 className="title">
-                      <a href="/faculty">Faculties</a>
+                      <a href="/faculty">Faculty</a>
                     </h4>
                     <p className="description">
 
