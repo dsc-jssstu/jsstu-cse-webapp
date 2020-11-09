@@ -415,7 +415,7 @@ class Body extends Component {
                   />
                 </div>
                 <div className="col-md-8 wow fadeInUp pt-5 pt-md-0">
-                  <h4>Head and Professor</h4>
+                  <h4>HoD and Professor</h4>
                   <p>
                     Dr. M P Pushpalatha, HOD pf department of Computer Science
                     and Engineering, graduated from Visvesvaraya Technological University (VTU), Belagavi.

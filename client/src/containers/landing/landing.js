@@ -130,7 +130,7 @@ class Landing extends Component {
                 </li>
 
                 <li>
-                  <a href='http://jssstuniv.in/departments-CS#1545313927150-645dc1af-654f'>Time Table</a>
+                  <a href='http://jssstuniv.in/departments-CS#1545313927150-645dc1af-654f' target="_blank">Time Table</a>
                 </li>
                 <li>
                   <a href="/.#contact">Contact Us</a>
