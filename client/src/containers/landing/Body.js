@@ -38,7 +38,7 @@ class Body extends Component {
     ============================--> */}
           <section id="about">
             <div className="container">
-              <header className="section-header py-5">
+              <header className="section-header py-5 text-justify">
                 <h3>ABOUT US</h3>
                 <p>
                   The inception of Department of Computer Science and
@@ -78,7 +78,7 @@ class Body extends Component {
                     <h4 className="title">
                       <a href="#1">Vision</a>
                     </h4>
-                    <p className="description">
+                    <p className="description text-justify">
                       Seek to become a universally well known academic centre for teaching, learning, research and innovation in the field of Computer Science & Engineering
                     </p>
                   </div>
@@ -92,7 +92,7 @@ class Body extends Component {
                       <a href="#1">Mission </a>
                     </h4>
 
-                    <ul className="description">
+                    <ul className="description text-justify">
                       <li>Impart quality education with an emphasis on basic principles of Computer Science and Engineering.</li>
                       <li>Inculcate advancements in curriculum and pedagogy to enhance teaching and learning process.</li>
                       <li>Foster research and collaboration with premier institutions and industries.</li>
@@ -416,11 +416,11 @@ class Body extends Component {
                 </div>
                 <div className="col-md-8 wow fadeInUp pt-5 pt-md-0">
                   <h4>HoD and Professor</h4>
-                  <p>
+                  <p class="text-justify">
                     Dr. M P Pushpalatha, HOD pf department of Computer Science
                     and Engineering, graduated from Visvesvaraya Technological University (VTU), Belagavi.
                   </p>
-                  <p>
+                  <p class="text-justify">
                     Professor in the department of Computer Science and
                     Engineering, with nearly three decades of teaching
                     experience. Passionate and committed to inspire students to
@@ -496,7 +496,7 @@ class Body extends Component {
                   </div>
                 </div>
 
-                <div
+                {/*<div
                   className="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp"
                   data-wow-delay="0.1s"
                   data-wow-duration="1.4s"
@@ -535,7 +535,7 @@ class Body extends Component {
 
                     </p>
                   </div>
-                </div>
+                </div>*/}
 
                 <div
                   className="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp"
@@ -1012,6 +1012,20 @@ class Body extends Component {
                       style={{ border: "0", width: "100%", height: "312px" }}
                       allowFullScreen
                     ></iframe>
+
+                    <h3 className="font-weight-bold pt-3">JSS STU</h3>
+                    <p class="text-justify">
+                        JSS Science and Technology University is one of the recent
+                        additions to the institutions administered by JSS
+                        Mahavidyapeetha, and is the second University being
+                        established besides a Medical University at Mysuru.
+                        India’s higher education system is on the verge of major
+                        reforms and JSS Science and Technology University has been
+                        established envisioning to create a bright future and a
+                        desired learner centric eco-system and transform into a
+                        futuristic global University.
+                    </p>
+
                   </div>
                 </div>
 

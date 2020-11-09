@@ -257,7 +257,7 @@ OTHERS
   padding: 2px;
   width: 35px;
   height: 35px;
-  line-height: 33px;
+  line-height: 27px;
   text-align: center;
   margin: 0 3px;
   border: 1px solid #004a99 !important;
@@ -267,7 +267,9 @@ OTHERS
 
 #faculty .faculty-social .fa {
   color: #fff;
+  margin: auto !important;
 }
+
 
 #faculty .dev-list .widget {
   padding: 30px;
