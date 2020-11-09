@@ -123,28 +123,14 @@ class Landing extends Component {
                   <a href={"/.#about"}>About Us</a>
                 </li>
                 <li>
-                  <a href={"/.#services"}>Facilities</a>
+                  <a href={"/.#services"}>Dept Profile</a>
                 </li>
                 <li>
                   <a href={"/faculty"}>Faculty</a>
                 </li>
 
-                <li className="drop-down">
-                  <a href='/'>Time Table</a>
-                  <ul>
-                    <li>
-                      <a href='/'>I</a>
-                    </li>
-                    <li>
-                      <a href='/'>II</a>
-                    </li>
-                    <li>
-                      <a href='/'>III</a>
-                    </li>
-                    <li>
-                      <a href='/'>IV</a>
-                    </li>
-                  </ul>
+                <li>
+                  <a href='http://jssstuniv.in/departments-CS#1545313927150-645dc1af-654f' target="_blank">Time Table</a>
                 </li>
                 <li>
                   <a href="/.#contact">Contact Us</a>
@@ -171,22 +157,8 @@ class Landing extends Component {
               <a href={"../faculty/faculty.js"}>Faculty</a>
             </li>
 
-            <li className="drop-down">
-              <a href='/'>Time Table</a>
-              <ul>
-                <li>
-                  <a href='/'>I</a>
-                </li>
-                <li>
-                  <a href='/'>II</a>
-                </li>
-                <li>
-                  <a href='/'>III</a>
-                </li>
-                <li>
-                  <a href='/'>IV</a>
-                </li>
-              </ul>
+            <li>
+              <a href='http://jssstuniv.in/departments-CS#1545313927150-645dc1af-654f'>Time Table</a>
             </li>
             <li>
               <a href={"/.#contact"}>Contact Us</a>

@@ -36,15 +36,8 @@ const Faculty = () => {
                 </p>
 
                 <div className="faculty-social d-flex justify-content-center" >
-                  <a href="#" className="btn global-radius">
-                    <i className="fa fa-facebook"></i>
-                  </a>
-                  <a href="#" className="btn global-radius">
-                    <i className="fa fa-github"></i>
-                  </a>
-
-                  <a href="#" className="btn global-radius">
-                    <i className="fa fa-linkedin"></i>
+                  <a href="http://jssstuniv.in/k-Teacher/dr-m-p-pushpalatha/" className="btn global-radius" target="_blank">
+                    <i className="fa fa-globe"></i>
                   </a>
                 </div>
               </div>
@@ -73,15 +66,8 @@ const Faculty = () => {
                 </p>
 
                 <div className="faculty-social d-flex justify-content-center" >
-                  <a href="#" className="btn global-radius">
-                    <i className="fa fa-facebook"></i>
-                  </a>
-                  <a href="#" className="btn global-radius">
-                    <i className="fa fa-github"></i>
-                  </a>
-
-                  <a href="#" className="btn global-radius">
-                    <i className="fa fa-linkedin"></i>
+                  <a href="http://jssstuniv.in/k-Teacher/dr-h-c-vijayalakshmi/" className="btn global-radius" target="_blank">
+                    <i className="fa fa-globe"></i>
                   </a>
                 </div>
               </div>
@@ -108,16 +94,9 @@ const Faculty = () => {
                 </p>
 
                 <div className="faculty-social d-flex justify-content-center" >
-                  <a href="#" className="btn global-radius">
-                    <i className="fa fa-facebook"></i>
-                  </a>
-                  <a href="#" className="btn global-radius">
-                    <i className="fa fa-github"></i>
-                  </a>
-
-                  <a href="#" className="btn global-radius">
-                    <i className="fa fa-linkedin"></i>
-                  </a>
+                <a href="http://jssstuniv.in/k-Teacher/s-srinath/" className="btn global-radius" target="_blank">
+                  <i className="fa fa-globe"></i>
+                </a>
                 </div>
               </div>
             </div>
@@ -148,16 +127,9 @@ const Faculty = () => {
               </p>
 
               <div className="faculty-social d-flex justify-content-center" >
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-facebook"></i>
-                </a>
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-github"></i>
-                </a>
-
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-linkedin"></i>
-                </a>
+              <a href="http://jssstuniv.in/k-Teacher/dr-anil-kumar-km/" className="btn global-radius" target="_blank">
+                <i className="fa fa-globe"></i>
+              </a>
               </div>
             </div>
           </div>
@@ -183,16 +155,9 @@ const Faculty = () => {
               </p>
 
               <div className="faculty-social d-flex justify-content-center" >
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-facebook"></i>
-                </a>
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-github"></i>
-                </a>
-
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-linkedin"></i>
-                </a>
+              <a href="http://jssstuniv.in/k-Teacher/dr-m-a-anusuya/" className="btn global-radius" target="_blank">
+                <i className="fa fa-globe"></i>
+              </a>
               </div>
             </div>
           </div>
@@ -217,16 +182,37 @@ const Faculty = () => {
               </p>
 
               <div className="faculty-social d-flex justify-content-center" >
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-facebook"></i>
-                </a>
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-github"></i>
-                </a>
+              <a href="http://jssstuniv.in/k-Teacher/prasanna-b-t/" className="btn global-radius" target="_blank">
+                <i className="fa fa-globe"></i>
+              </a>
+              </div>
+            </div>
+          </div>
 
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-linkedin"></i>
-                </a>
+          <div
+            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
+            data-wow-duration="1s"
+            data-wow-delay="0.6s"
+          >
+            <div className="widget clearfix">
+              <img
+                src="https://jssstuniv.in/wp-content/uploads/2018/11/guru-116x150.jpg"
+                alt=""
+                className="img-fluid rounded-circle"
+              />
+              <div className="widget-title">
+                <h3>Dr. R Guru </h3>
+                <small>Assistant Professor </small>
+              </div>
+
+              <p>
+               His areas of interest are Computer Network, Wireless Sensor Networks, Cloud Computing, IoT.
+              </p>
+
+              <div className="faculty-social d-flex justify-content-center" >
+              <a href="http://jssstuniv.in/k-Teacher/dr-guru-r/" className="btn global-radius" target="_blank">
+                <i className="fa fa-globe"></i>
+              </a>
               </div>
             </div>
           </div>
@@ -256,16 +242,9 @@ const Faculty = () => {
               </p>
 
               <div className="faculty-social d-flex justify-content-center" >
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-facebook"></i>
-                </a>
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-github"></i>
-                </a>
-
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-linkedin"></i>
-                </a>
+              <a href="http://jssstuniv.in/k-Teacher/a-m-chandrashekar/" className="btn global-radius" target="_blank">
+                <i className="fa fa-globe"></i>
+              </a>
               </div>
             </div>
            </div>
@@ -291,16 +270,9 @@ const Faculty = () => {
                </p>
 
                <div className="faculty-social d-flex justify-content-center" >
-                 <a href="#" className="btn global-radius">
-                   <i className="fa fa-facebook"></i>
-                 </a>
-                 <a href="#" className="btn global-radius">
-                   <i className="fa fa-github"></i>
-                 </a>
-
-                 <a href="#" className="btn global-radius">
-                   <i className="fa fa-linkedin"></i>
-                 </a>
+               <a href="http://jssstuniv.in/k-Teacher/s-manimala/" className="btn global-radius" target="_blank">
+                 <i className="fa fa-globe"></i>
+               </a>
                </div>
              </div>
            </div>
@@ -327,16 +299,9 @@ const Faculty = () => {
                </p>
 
                <div className="faculty-social d-flex justify-content-center" >
-                 <a href="#" className="btn global-radius">
-                   <i className="fa fa-facebook"></i>
-                 </a>
-                 <a href="#" className="btn global-radius">
-                   <i className="fa fa-github"></i>
-                 </a>
-
-                 <a href="#" className="btn global-radius">
-                   <i className="fa fa-linkedin"></i>
-                 </a>
+               <a href="http://jssstuniv.in/k-Teacher/pm-shiva-murthy/" className="btn global-radius" target="_blank">
+                 <i className="fa fa-globe"></i>
+               </a>
                </div>
              </div>
            </div>
@@ -365,16 +330,9 @@ const Faculty = () => {
                 </p>
 
                 <div className="faculty-social d-flex justify-content-center" >
-                  <a href="#" className="btn global-radius">
-                    <i className="fa fa-facebook"></i>
-                  </a>
-                  <a href="#" className="btn global-radius">
-                    <i className="fa fa-github"></i>
-                  </a>
-
-                  <a href="#" className="btn global-radius">
-                    <i className="fa fa-linkedin"></i>
-                  </a>
+                <a href="https://jssstuniv.in/k-Teacher/dr-trisiladevi-c-nagavi/" className="btn global-radius" target="_blank">
+                  <i className="fa fa-globe"></i>
+                </a>
                 </div>
               </div>
             </div>
@@ -400,16 +358,9 @@ const Faculty = () => {
                 </p>
 
                 <div className="faculty-social d-flex justify-content-center" >
-                  <a href="#" className="btn global-radius">
-                    <i className="fa fa-facebook"></i>
-                  </a>
-                  <a href="#" className="btn global-radius">
-                    <i className="fa fa-github"></i>
-                  </a>
-
-                  <a href="#" className="btn global-radius">
-                    <i className="fa fa-linkedin"></i>
-                  </a>
+                <a href="http://jssstuniv.in/k-Teacher/p-mahesh/" className="btn global-radius" target="_blank">
+                  <i className="fa fa-globe"></i>
+                </a>
                 </div>
               </div>
             </div>
@@ -435,16 +386,9 @@ const Faculty = () => {
                 </p>
 
                 <div className="faculty-social d-flex justify-content-center" >
-                  <a href="#" className="btn global-radius">
-                    <i className="fa fa-facebook"></i>
-                  </a>
-                  <a href="#" className="btn global-radius">
-                    <i className="fa fa-github"></i>
-                  </a>
-
-                  <a href="#" className="btn global-radius">
-                    <i className="fa fa-linkedin"></i>
-                  </a>
+                <a href="http://jssstuniv.in/k-Teacher/sheela-n-2/" className="btn global-radius" target="_blank">
+                  <i className="fa fa-globe"></i>
+                </a>
                 </div>
               </div>
             </div>
@@ -473,16 +417,9 @@ const Faculty = () => {
               </p>
 
               <div className="faculty-social d-flex justify-content-center" >
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-facebook"></i>
-                </a>
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-github"></i>
-                </a>
-
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-linkedin"></i>
-                </a>
+              <a href="http://jssstuniv.in/k-Teacher/vani-ashok/" className="btn global-radius" target="_blank">
+                <i className="fa fa-globe"></i>
+              </a>
               </div>
             </div>
           </div>
@@ -508,16 +445,9 @@ const Faculty = () => {
               </p>
 
               <div className="faculty-social d-flex justify-content-center" >
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-facebook"></i>
-                </a>
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-github"></i>
-                </a>
-
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-linkedin"></i>
-                </a>
+              <a href="http://jssstuniv.in/k-Teacher/g-madhusudhan/" className="btn global-radius" target="_blank">
+                <i className="fa fa-globe"></i>
+              </a>
               </div>
             </div>
           </div>
@@ -543,22 +473,9 @@ const Faculty = () => {
               </p>
 
               <div className="faculty-social d-flex justify-content-center" >
-                <a href="#" className="btn global-radius">
-                  <i
-                    className="fa fa-facebook"
-                    style={{ padding: "2px" }}
-                  ></i>
-                </a>
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-github" style={{ padding: "2px" }}></i>
-                </a>
-
-                <a href="#" className="btn global-radius">
-                  <i
-                    className="fa fa-linkedin"
-                    style={{ padding: "2px" }}
-                  ></i>
-                </a>
+              <a href="http://jssstuniv.in/k-Teacher/s-brunda/" className="btn global-radius" target="_blank">
+                <i className="fa fa-globe"></i>
+              </a>
               </div>
             </div>
           </div>
@@ -588,16 +505,9 @@ const Faculty = () => {
               </p>
 
               <div className="faculty-social d-flex justify-content-center" >
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-facebook"></i>
-                </a>
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-github"></i>
-                </a>
-
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-linkedin"></i>
-                </a>
+              <a href="http://jssstuniv.in/k-Teacher/s-manjula/" className="btn global-radius" target="_blank">
+                <i className="fa fa-globe"></i>
+              </a>
               </div>
             </div>
           </div>
@@ -624,54 +534,13 @@ const Faculty = () => {
               </p>
 
               <div className="faculty-social d-flex justify-content-center" >
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-facebook"></i>
-                </a>
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-github"></i>
-                </a>
-
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-linkedin"></i>
+                <a href="http://jssstuniv.in/k-Teacher/n-divakara/" className="btn global-radius" target="_blank">
+                  <i className="fa fa-globe"></i>
                 </a>
               </div>
             </div>
           </div>
 
-          <div
-            className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
-            data-wow-duration="1s"
-            data-wow-delay="0.6s"
-          >
-            <div className="widget clearfix">
-              <img
-                src="https://jssstuniv.in/wp-content/uploads/2018/11/guru-116x150.jpg"
-                alt=""
-                className="img-fluid rounded-circle"
-              />
-              <div className="widget-title">
-                <h3>Dr. R Guru </h3>
-                <small>Assistant Professor </small>
-              </div>
-
-              <p>
-               His areas of interest are Computer Network, Wireless Sensor Networks, Cloud Computing, IoT.
-              </p>
-
-              <div className="faculty-social d-flex justify-content-center" >
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-facebook"></i>
-                </a>
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-github"></i>
-                </a>
-
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-linkedin"></i>
-                </a>
-              </div>
-            </div>
-          </div>
 
           {/*</div>
 
@@ -699,16 +568,9 @@ const Faculty = () => {
               </p>
 
               <div className="faculty-social d-flex justify-content-center" >
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-facebook"></i>
-                </a>
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-github"></i>
-                </a>
-
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-linkedin"></i>
-                </a>
+              <a href="http://jssstuniv.in/k-Teacher/vijay-m-b/" className="btn global-radius" target="_blank">
+                <i className="fa fa-globe"></i>
+              </a>
               </div>
             </div>
           </div>
@@ -735,16 +597,9 @@ const Faculty = () => {
               </p>
 
               <div className="faculty-social d-flex justify-content-center" >
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-facebook"></i>
-                </a>
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-github"></i>
-                </a>
-
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-linkedin"></i>
-                </a>
+              <a href="http://jssstuniv.in/k-Teacher/k-s-mahesh/" className="btn global-radius" target="_blank">
+                <i className="fa fa-globe"></i>
+              </a>
               </div>
             </div>
           </div>
@@ -770,16 +625,9 @@ const Faculty = () => {
               </p>
 
               <div className="faculty-social d-flex justify-content-center" >
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-facebook"></i>
-                </a>
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-github"></i>
-                </a>
-
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-linkedin"></i>
-                </a>
+              <a href="http://jssstuniv.in/k-Teacher/sreenivas-t/" className="btn global-radius" target="_blank">
+                <i className="fa fa-globe"></i>
+              </a>
               </div>
             </div>
           </div>
@@ -808,16 +656,9 @@ const Faculty = () => {
               </p>
 
               <div className="faculty-social d-flex justify-content-center" >
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-facebook"></i>
-                </a>
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-github"></i>
-                </a>
-
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-linkedin"></i>
-                </a>
+              <a href="http://jssstuniv.in/k-Teacher/bindya-a-r/" className="btn global-radius" target="_blank">
+                <i className="fa fa-globe"></i>
+              </a>
               </div>
             </div>
           </div>
@@ -842,16 +683,9 @@ const Faculty = () => {
               </p>
 
               <div className="faculty-social d-flex justify-content-center" >
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-facebook"></i>
-                </a>
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-github"></i>
-                </a>
-
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-linkedin"></i>
-                </a>
+              <a href="http://jssstuniv.in/k-Teacher/ashritha-r-murthy/" className="btn global-radius" target="_blank">
+                <i className="fa fa-globe"></i>
+              </a>
               </div>
             </div>
           </div>
@@ -876,16 +710,9 @@ const Faculty = () => {
               </p>
 
               <div className="faculty-social d-flex justify-content-center" >
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-facebook"></i>
-                </a>
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-github"></i>
-                </a>
-
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-linkedin"></i>
-                </a>
+              <a href="http://jssstuniv.in/k-Teacher/varsha-v/" className="btn global-radius" target="_blank">
+                <i className="fa fa-globe"></i>
+              </a>
               </div>
             </div>
           </div>
@@ -915,16 +742,9 @@ const Faculty = () => {
               </p>
 
               <div className="faculty-social d-flex justify-content-center" >
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-facebook"></i>
-                </a>
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-github"></i>
-                </a>
-
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-linkedin"></i>
-                </a>
+              <a href="http://jssstuniv.in/k-Teacher/shruthi-n-m/" className="btn global-radius" target="_blank">
+                <i className="fa fa-globe"></i>
+              </a>
               </div>
             </div>
           </div>
@@ -949,18 +769,39 @@ const Faculty = () => {
               </p>
 
               <div className="faculty-social d-flex justify-content-center" >
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-facebook"></i>
-                </a>
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-github"></i>
-                </a>
-
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-linkedin"></i>
-                </a>
+              <a href="http://jssstuniv.in/k-Teacher/shalini-k-c/" className="btn global-radius" target="_blank">
+                <i className="fa fa-globe"></i>
+              </a>
               </div>
             </div>
+          </div>
+
+          <div
+           className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeIn"
+           data-wow-duration="1s"
+           data-wow-delay="0.2s"
+          >
+           <div className="widget clearfix">
+             <img
+               src=""
+               alt=""
+               className="img-fluid rounded-circle"
+             />
+             <div className="widget-title">
+               <h3>Swetha P M </h3>
+               <small>Assistant Professor</small>
+             </div>
+
+             <p>
+               ---
+             </p>
+
+             <div className="faculty-social d-flex justify-content-center" >
+             <a href="https://jssstuniv.in/k-Teacher/swetha-p-m/" className="btn global-radius" target="_blank">
+               <i className="fa fa-globe"></i>
+             </a>
+             </div>
+           </div>
           </div>
 
           <div
@@ -983,16 +824,9 @@ const Faculty = () => {
               </p>
 
               <div className="faculty-social d-flex justify-content-center" >
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-facebook"></i>
-                </a>
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-github"></i>
-                </a>
-
-                <a href="#" className="btn global-radius">
-                  <i className="fa fa-linkedin"></i>
-                </a>
+              <a href="https://jssstuniv.in/k-Teacher/parashiva-murthy-b-m/" className="btn global-radius" target="_blank">
+                <i className="fa fa-globe"></i>
+              </a>
               </div>
             </div>
           </div>
