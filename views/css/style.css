@@ -575,6 +575,9 @@ h6 {
   font-size: 24px;
 }
 
+.text-justify{
+  text-align: justify !important;
+}
 /* Services Section
 --------------------------------*/
 
