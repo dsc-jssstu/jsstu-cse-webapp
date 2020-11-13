@@ -1,8 +1,9 @@
 import * as actionTypes from './actionTypes';
 import axios from 'axios';
+import { apiBaseUrl } from '../../constants';
 
 //const baseurl = 'https://jssstu-cs.herokuapp.com';
- const baseurl = "http://localhost:7000"
+ const baseurl = apiBaseUrl
 
 export const signupStart = () => {
 	return {

@@ -7,6 +7,7 @@ import Footer from '../../landing/Footer'
 import Spinner from '../../spinner/Spinners'
 import Card from './card'
 import axios from 'axios'
+import { apiBaseUrl } from '../../../constants'
 
 
 export default class App extends Component {
@@ -16,7 +17,7 @@ export default class App extends Component {
     this.state = {
       cards: [],
       research: {},
-      "baseUrl": 'https://jssstu-cs.herokuapp.com',
+      "baseUrl": apiBaseUrl,
       // "baseUrl": "http://localhost:4000",
       "adding": false,
       loader: false
