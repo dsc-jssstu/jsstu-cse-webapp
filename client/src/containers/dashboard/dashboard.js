@@ -4,6 +4,7 @@ import { withRouter } from "react-router-dom";
 import "./dashboard.css";
 import Footer from "../landing/Footer";
 import Axios from "axios";
+import { apiBaseUrl } from "../../constants";
 
 
 class Dashboard extends Component {
@@ -11,7 +12,7 @@ class Dashboard extends Component {
     super();
     this.state = {
       subjects: [],
-      "baseUrl": 'https://jssstu-cs.herokuapp.com',
+      "baseUrl": apiBaseUrl,
       // "baseUrl": "http://localhost:4000",
     };
   }
