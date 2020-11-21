@@ -1,0 +1,15 @@
+.binCards {
+    flex-basis: calc(33.333% - 40px);
+}
+
+@media only screen and (max-width: 900px) {
+    .binCards {
+        flex-basis: calc(50% - 40px);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .binCards {
+        flex-basis: calc(100% - 40px);
+    }
+}

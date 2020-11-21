@@ -99,6 +99,7 @@ class Signup extends Component {
                           <select onChange={this.onChangeHandler} id="mode" className="form-control extra" defaultValue={"mode"} required autoFocus>
                               <option disabled value="mode">Mode</option>
                               <option value="faculty">Faculty</option>
+                              <option value="coordinator">Coordinator</option>
                               <option value="hod">Hod</option>
                               <option value="admin">Admin</option>
                           </select>
