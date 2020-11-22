@@ -10,5 +10,7 @@ COPY . .
 
 RUN sh -c "cd /usr/src/app/client && npm install && npm run build"
 
+RUN mkdir -p /usr/src/app/uploads
+
 CMD [ "npm", "start" ]
 
