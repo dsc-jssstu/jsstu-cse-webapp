@@ -4,6 +4,7 @@ const User = require('../models/user');
 const passport = require('passport');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
+const document = require('../routes/document');
 
 require('dotenv').config();
 
@@ -73,6 +74,7 @@ router.get('/getUser', function (req, res, next) {
     res.json(req.user);
 });
 
+router.use('/document', document);
 
 module.exports = router;
 

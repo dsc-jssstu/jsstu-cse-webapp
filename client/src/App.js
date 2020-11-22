@@ -11,6 +11,7 @@ import Awards from "./containers/dashboard/awards/Awards";
 import Training from "./containers/dashboard/trainingCon/Training";
 import Subject from "./containers/dashboard/subjects/Subject";
 import TrainingAttended from './containers/dashboard/trainingAtt/Training'
+import Document from './containers/dashboard/documents/document';
 import Faculty from "./containers/faculty/faculty";
 
 import { connect } from "react-redux";
@@ -55,6 +56,8 @@ class App extends Component {
               />
               <Route path="/dashboard/subject" render={() => <Subject loggedIn={this.props.loggedIn} user={this.props.user} />}
               />
+              <Route path="/dashboard/documents" render={() => <Document loggedIn={this.props.loggedIn} user={this.props.user} />}
+              />
               <Route path="/signup" render={() => <Signup />} />
               <Route path="/faculty" render={() => <Faculty />} />
               <Redirect to="/" />
@@ -84,6 +87,8 @@ class App extends Component {
           />
           <Route path="/dashboard/subject" render={() => <Subject loggedIn={this.props.loggedIn} user={this.props.user} />}
           />
+          <Route path="/dashboard/documents" render={() => <Document loggedIn={this.props.loggedIn} user={this.props.user} />}
+          />
           <Route path="/faculty" render={() => <Faculty />} />
           <Redirect to="/" />
         </Switch>
@@ -95,7 +100,7 @@ class App extends Component {
           <Route
             path="/"
             exact
-            render={() => <Landing loggedIn={this.props.loggedIn} />}
+            render={() => <Landing loggedIn={this.props.loggedIn} user={{_id: 1}} />}
           />
           <Route path="/login" render={() => <Login />} />
           <Route path="/faculty" render={() => <Faculty />} />

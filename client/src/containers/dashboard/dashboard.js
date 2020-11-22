@@ -59,6 +59,13 @@ class Dashboard extends Component {
     });
   };
 
+  documents = event => {
+    event.preventDefault();
+    this.props.history.push({
+      pathname: "/dashboard/documents",
+    })
+  }
+
   componentDidMount() {
     Axios.get(this.state.baseUrl + '/subject/' + this.props.user._id)
       .then(subjects => {
@@ -168,6 +175,18 @@ class Dashboard extends Component {
                   <h4 className="title">
                     <a href={this.onDummyHandler}>
                       Trainings & Workshops Attended
+                    </a>
+                  </h4>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-5 offset-lg-1">
+                <div className="box" onClick={this.documents}>
+                  <div className="icon">
+                    <i className="fas fa-file card-img-top"></i>
+                  </div>
+                  <h4 className="title">
+                    <a href={this.onDummyHandler}>
+                      Documents
                     </a>
                   </h4>
                 </div>
