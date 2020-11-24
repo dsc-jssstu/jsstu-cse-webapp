@@ -8,6 +8,9 @@ import ErrorImg from '../../assets/error.png';
 import * as actions from '../../store/actions/index';
 import {connect} from 'react-redux';
 import Footer from '../landing/Footer';
+import Tabs from 'react-bootstrap/Tabs';
+import Tab from 'react-bootstrap/Tabs';
+
 
 class Login extends Component {
  constructor() {
@@ -44,29 +47,61 @@ class Login extends Component {
   }
 
   render() {
-    let baseComp;
-    if(this.props.loading){
-       baseComp = (
-          <div style={{textAlign:'center'}}>
-                   <Spinner  style={{'height':'100px','width':'100px'}} animation="border"/>         
-           </div>
-        ) 
-    }else{
-      baseComp = (
-         <form onSubmit={this.onSubmitHandler}>
-                        <div className="form-label-group">
-                          <input onChange={this.onChange} type="email" id="username" className="form-control" placeholder="Email address" required autoFocus/>
-                          <label htmlFor="username">Email address</label>
-                        </div>
+    let baseFacultyComp;
+    let baseCoorComp;
 
-                        <div className="form-label-group">
-                          <input onChange={this.onChange} type="password" id="password" className="form-control" placeholder="Password" required/>
-                          <label htmlFor="password">Password</label>
-                        </div>
-                        <button className="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Sign in</button>
-                        <div className="text-center">
-                          <a style={{'color':'black'}} className="small" href='{this.onForgotPasswordHandler}'>Forgot password?</a>
-                        </div>
+    if(this.props.loading){
+       baseFacultyComp = (
+          <div style={{textAlign:'center'}}>
+                   <Spinner  style={{'height':'100px','width':'100px'}} animation="border"/>
+           </div>
+        )
+
+      baseCoorComp = (
+         <div style={{textAlign:'center'}}>
+                  <Spinner  style={{'height':'100px','width':'100px'}} animation="border"/>
+          </div>
+       )
+    }else{
+      baseFacultyComp = (
+         <form onSubmit={this.onSubmitHandler}>
+            <div className="form-label-group">
+              <input onChange={this.onChange} type="email" id="username" className="form-control" placeholder="Email address" required autoFocus/>
+              <label htmlFor="username">Email address</label>
+            </div>
+
+            <div className="form-label-group">
+              <input onChange={this.onChange} type="password" id="password" className="form-control" placeholder="Password" required/>
+              <label htmlFor="password">Password</label>
+            </div>
+            <button className="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Sign in</button>
+            <div className="text-center">
+              <a style={{'color':'black'}} className="small" href='{this.onForgotPasswordHandler}'>Forgot password?</a>
+            </div>
+         </form>
+      )
+
+      baseCoorComp = (
+         <form onSubmit={this.onSubmitHandler}>
+            <div class="form-group">
+              <label for="coordinator">&nbsp;&nbsp;Category</label>
+              <select class="form-control" id="coordinator" onChange={this.onChange} style={{borderRadius: "2rem"}} required>
+                <option>Coordinator 1</option>
+                <option>Coordinator 2</option>
+                <option>Coordinator 3</option>
+                <option>Coordinator 4</option>
+                <option>Coordinator 5</option>
+              </select>
+            </div>
+
+            <div className="form-label-group">
+              <input onChange={this.onChange} type="password" id="password" className="form-control" placeholder="Password" required/>
+              <label htmlFor="password">Password</label>
+            </div>
+            <button className="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Sign in</button>
+            <div className="text-center">
+              <a style={{'color':'black'}} className="small" href='{this.onForgotPasswordHandler}'>Forgot password?</a>
+            </div>
          </form>
       )
     }
@@ -81,15 +116,15 @@ class Login extends Component {
           right: 0,
         }}
       >
-          <Toast.Header>
-              <img src={ErrorImg} className="rounded mr-2 toastImg" alt="" />
-              <strong className="mr-auto">Invalid details</strong>
-              <small>just now</small>
-          </Toast.Header>
+        <Toast.Header>
+            <img src={ErrorImg} className="rounded mr-2 toastImg" alt="" />
+            <strong className="mr-auto">Invalid details</strong>
+            <small>just now</small>
+        </Toast.Header>
 
-          <Toast.Body>
-             username or password is incorrect
-          </Toast.Body>
+        <Toast.Body>
+           username or password is incorrect
+        </Toast.Body>
       </Toast>
       <div className="container-fluid commHeader">
           <div className="row no-gutter">
@@ -99,8 +134,16 @@ class Login extends Component {
                 <div className="container">
                   <div className="row">
                     <div className="col-md-9 col-lg-8 mx-auto">
-                      <h3 className="login-heading mb-4">Sign In</h3>
-                        {baseComp}
+                      <Tabs defaultActiveKey="faculty" id="login-tab">
+                        <Tab eventKey="faculty" title="&nbsp;&nbsp;&nbsp;Faculty&nbsp;&nbsp;&nbsp;">
+                          <h3 className="login-heading m-4">Faculty Sign In</h3>
+                            {baseFacultyComp}
+                        </Tab>
+                        <Tab eventKey="coordinator" title="&nbsp;&nbsp;&nbsp;Coordinator&nbsp;&nbsp;&nbsp;">
+                          <h3 className="login-heading m-4">Coordinator Sign In</h3>
+                            {baseCoorComp}
+                        </Tab>
+                      </Tabs>
                     </div>
                   </div>
                 </div>
@@ -128,5 +171,3 @@ const mapStateToProps = state =>{
 }
 
 export default connect(mapStateToProps,mapDispatchToProps)(Login);
-
-
