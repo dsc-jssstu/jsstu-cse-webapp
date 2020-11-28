@@ -22,7 +22,7 @@ const BinCardView = (props) => {
 
     const downloadHandler = (doc) => {
         const token = localStorage.getItem("token");
-        axios.get(apiBaseUrl + '/document/' + doc._id, {
+        axios.get(apiBaseUrl + '/document/download/' + doc._id, {
             headers: {
                 'Authorization': token,
             },

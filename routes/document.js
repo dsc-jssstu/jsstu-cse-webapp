@@ -84,8 +84,10 @@ router.get('/', (req, res) => {
 });
 
 router.get('/download/:id', (req, res) => {
-    Document.findOne({ __id: req.params.id }).then(doc => {
-        res.download('uploads/' + doc.fileName);
+    Document.findOne({ _id: req.params.id }).then(doc => {
+        res.download(`${__dirname}/../uploads/${doc.fileName}`);
+    }).catch(err => {
+        console.error(err);
     });
 });
 
