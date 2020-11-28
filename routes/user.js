@@ -66,49 +66,150 @@ require('dotenv').config();
 //   });
 // });
 
-router.post('/addAdmin',function(req,res){
-   var userObj = {
+router.post('/addAdmin', function (req, res) {
+  var userObj = {
     username: 'jsscsdeptwebsite@gmail.com',
     password: 'jssstucsdept',
-    name:'JSSS TU Admin',
+    name: 'JSSS TU Admin',
     designation: 'admin',
     mode: 'admin',
-    image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUJf7pV2bbjFb_7AQsgA3kVpF6qvHxhzzbrM692Ar2Xn17yID30A&s'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUJf7pV2bbjFb_7AQsgA3kVpF6qvHxhzzbrM692Ar2Xn17yID30A&s'
   };
-  User.findOne({ username: userObj.username}, (err, user) => {
-      if (err) {
-        console.log('User.js post error: ', err)
-      } else if (user) {
-        res.json({
-          error: `Sorry, already a user with the username: ${username}`
-        })
-      }
-      else {
-        User.create(userObj, function (err, newlyCreated) {
-          if (err) {
-            res.json(err)
-          } else {
-            console.log(newlyCreated);
-            res.json(newlyCreated)
-          }
-        })
-      }
-    })
+  User.findOne({ username: userObj.username }, (err, user) => {
+    if (err) {
+      console.log('User.js post error: ', err)
+    } else if (user) {
+      res.json({
+        error: `Sorry, already a user with the username: ${username}`
+      })
+    }
+    else {
+      User.create(userObj, function (err, newlyCreated) {
+        if (err) {
+          res.json(err)
+        } else {
+          console.log(newlyCreated);
+          res.json(newlyCreated)
+        }
+      })
+    }
+  })
 
 });
 
-router.post('/deleteAdmin',function(req,res){
-  User.remove({ username: 'jsscsdeptwebsite@gmail.com' }, function(err) {
+router.post('/deleteAdmin', function (req, res) {
+  User.remove({ username: 'jsscsdeptwebsite@gmail.com' }, function (err) {
     if (!err) {
-           res.json('admin deleted');
+      res.json('admin deleted');
     }
     else {
-          res.json(err);
+      res.json(err);
     }
   });
 
 });
 
+
+router.post('/addDefaultCoordinators', function (req, res) {
+  const coordinators = [
+    {
+      username: 'tequip',
+      password: 'jssstucsdept',
+      name: 'TEQUIP Co-ordinator',
+      designation: 'Others',
+      mode: 'coordinator',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUJf7pV2bbjFb_7AQsgA3kVpF6qvHxhzzbrM692Ar2Xn17yID30A&s'
+    },
+    {
+      username: 'information',
+      password: 'jssstucsdept',
+      name: 'Information Co-ordinator',
+      designation: 'Others',
+      mode: 'coordinator',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUJf7pV2bbjFb_7AQsgA3kVpF6qvHxhzzbrM692Ar2Xn17yID30A&s'
+    },
+    {
+      username: 'mba',
+      password: 'jssstucsdept',
+      name: 'MBA Co-ordinator',
+      designation: 'Others',
+      mode: 'coordinator',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUJf7pV2bbjFb_7AQsgA3kVpF6qvHxhzzbrM692Ar2Xn17yID30A&s'
+    },
+    {
+      username: 'ug',
+      password: 'jssstucsdept',
+      name: 'UG Co-ordinator',
+      designation: 'Others',
+      mode: 'coordinator',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUJf7pV2bbjFb_7AQsgA3kVpF6qvHxhzzbrM692Ar2Xn17yID30A&s'
+    },
+    {
+      username: 'pg',
+      password: 'jssstucsdept',
+      name: 'PG Co-ordinator',
+      designation: 'Others',
+      mode: 'coordinator',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUJf7pV2bbjFb_7AQsgA3kVpF6qvHxhzzbrM692Ar2Xn17yID30A&s'
+    },
+    {
+      username: 'timetable',
+      password: 'jssstucsdept',
+      name: 'Time Table Co-ordinator',
+      designation: 'Others',
+      mode: 'coordinator',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUJf7pV2bbjFb_7AQsgA3kVpF6qvHxhzzbrM692Ar2Xn17yID30A&s'
+    },
+    {
+      username: 'ugprojects',
+      password: 'jssstucsdept',
+      name: 'UG Projects Co-ordinator',
+      designation: 'Others',
+      mode: 'coordinator',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUJf7pV2bbjFb_7AQsgA3kVpF6qvHxhzzbrM692Ar2Xn17yID30A&s'
+    },
+    {
+      username: 'testtimetable',
+      password: 'jssstucsdept',
+      name: 'Test Time Table Co-ordinator',
+      designation: 'Others',
+      mode: 'coordinator',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUJf7pV2bbjFb_7AQsgA3kVpF6qvHxhzzbrM692Ar2Xn17yID30A&s'
+    },
+    {
+      username: 'testtimetable',
+      password: 'jssstucsdept',
+      name: 'Laboratory Co-ordinator',
+      designation: 'Others',
+      mode: 'coordinator',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUJf7pV2bbjFb_7AQsgA3kVpF6qvHxhzzbrM692Ar2Xn17yID30A&s'
+    },
+  ];
+
+  console.log("Creating default co-ordinator accounts");
+
+  coordinators.forEach((userObj, idx) => {
+    User.findOne({ username: userObj.username }, (err, user) => {
+      if (err) {
+        console.log('User.js post error: ', err)
+      } else if (user) {
+        console.log(`failed to create ${userObj.username} : user already exists \n`);
+      }
+      else {
+        User.create(userObj, function (err, newlyCreated) {
+          if (err) {
+            console.log(`failed to create ${userObj.username} : ${err} \n`);
+          } else {
+            console.log(newlyCreated);
+            console.log(`created ${userObj.username} \n`);
+          }
+        })
+      }
+    })
+  });
+
+  res.json("🥪");
+});
 
 //login logic
 
