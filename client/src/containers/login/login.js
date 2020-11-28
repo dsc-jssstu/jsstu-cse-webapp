@@ -16,7 +16,7 @@ class Login extends Component {
  constructor() {
     super();
     this.state = {
-        username:'',
+        username:'tequip',
         password:'',
         show:false
    }
@@ -84,19 +84,23 @@ class Login extends Component {
       baseCoorComp = (
          <form onSubmit={this.onSubmitHandler}>
             <div class="form-group">
-              <label for="coordinator">&nbsp;&nbsp;Category</label>
-              <select class="form-control" id="coordinator" onChange={this.onChange} style={{borderRadius: "2rem"}} required>
-                <option>Coordinator 1</option>
-                <option>Coordinator 2</option>
-                <option>Coordinator 3</option>
-                <option>Coordinator 4</option>
-                <option>Coordinator 5</option>
+              <label for="username">&nbsp;&nbsp;Category</label>
+              <select class="form-control" id="username" onChange={this.onChange} style={{borderRadius: "2rem"}} required>
+                <option value="tequip">TEQUIP Co-ordinator</option>
+                <option value="information">Information Co-ordinator</option>
+                <option value="mba">MBA Co-ordinator</option>
+                <option value="ug">UG Co-ordinator</option>
+                <option value="pg">PG Co-ordinator</option>
+                <option value="timetable">Time Table Co-ordinator</option>
+                <option value="ugprojects">UG Projects Co-ordinator</option>
+                <option value="testtimetable">Test Time Table Co-ordinator</option>
+                <option value="laboratory">Laboratory Co-ordinator</option>
               </select>
             </div>
 
             <div className="form-label-group">
               <input onChange={this.onChange} type="password" id="password" className="form-control" placeholder="Password" required/>
-              <label htmlFor="password">Password</label>
+              <label htmlFor="password" style={{pointerEvents: 'none'}}>Password</label>
             </div>
             <button className="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Sign in</button>
             <div className="text-center">
