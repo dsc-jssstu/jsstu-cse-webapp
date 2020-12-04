@@ -100,7 +100,7 @@ class App extends Component {
           <Route
             path="/"
             exact
-            render={() => <Landing loggedIn={this.props.loggedIn} user={{_id: 1}} />}
+            render={() => <Landing loggedIn={this.props.loggedIn} />}
           />
           <Route path="/login" render={() => <Login />} />
           <Route path="/faculty" render={() => <Faculty />} />
