@@ -74,6 +74,25 @@ router.get('/getUser', function (req, res, next) {
     res.json(req.user);
 });
 
+router.post('/changePassword', (req, res, next) => {
+  
+  const userId = req.user._id;
+  User.findById(userId, (err, user) => {
+    if (err)
+      res.status(500).json('Invalid user');
+    const isPasswdCorrect = user.checkPassword(req.body.oldPasswd);
+    const newPasswd = req.body.newPasswd;
+    
+    if (isPasswdCorrect) {
+      user.password = newPasswd;
+      user.save();
+      res.status(200).json('Password changed successfully. ');
+    } else {
+      res.status(500).json('Invalid password.');
+    }
+  });
+});
+
 router.use('/document', document);
 
 module.exports = router;
